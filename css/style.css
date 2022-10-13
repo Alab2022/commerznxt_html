@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Mulish', sans-serif !important;
-    background-color: #EFF2F6 !important;
+    background-color: #fff !important;
 }
 .fo-flx-center{
     display: flex;
@@ -73,9 +73,14 @@ h6.st-wi {
     white-space: nowrap;
 }
 h6{
-    font-weight: 400 !important;
-    color:  #8D8D8D;
+    font-weight: 700 !important;
+    color: #505050;
     font-size: 14px !important;
+}
+h6.dark{
+    font-weight: 600 !important;
+    color: #525252;
+    font-size: 15px !important;
 }
 .big-total{
     color: #63719C;
@@ -171,7 +176,7 @@ button {
     justify-content: center;
 }
 .image-wrapper img{
-width: 80%;
+width: 70%;
 }
 .fo-start{
     overflow-x: hidden;
@@ -181,7 +186,7 @@ width: 80%;
 }
 .form-wrapper {
     width: 100%;
-    padding: 0 100px;
+    
 }
 .col-lg-5.col-md-12.col-sm-12.no-padd {
     background: #fff;
@@ -193,12 +198,12 @@ width: 80%;
 }
 input {
     height: 50px;
-    border: 1.5px solid #C9C9C9 !important;
+    border: 1.5px solid #cbd5e1 !important;
     font-size: 14px !important;
     border-radius: 5px;
 }
 .form-wrapper.text-center h6 {
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 .primary{
@@ -208,6 +213,7 @@ button.btn.btn-primary {
     background: #F15A29;
     height: 50px;
     font-size: 14px;
+    font-weight: 800;
 }
 a.btn.btn-primary {
     background: #F15A29;
@@ -233,13 +239,14 @@ a.btn.btn-primary:hover {
     color: #ABABAB !important;
 }
 .form-wrapper.text-center h5 {
-    font-size: 20px !important;
+    font-size: 22px !important;
     margin-top: 40px;
+    font-weight: 700;
 }
 .form-wrapper.text-center a {
     font-size: 14px;
-    color: #19609E;
-    font-weight: 500;
+    color: #f59e0b;
+    font-weight: 800;
     text-decoration: none;
 }
 .error-msg h6 {
@@ -252,8 +259,9 @@ a.btn.btn-primary:hover {
     margin-top: 30px !important;
     font-weight: 500 !important;
 }
-.form-wrapper.text-center img {
-    width: 60%;
+.form-wrapper.logo_log img {
+    width: 75%;
+    margin-bottom: 20px;
 }
 .main-wrapper.fo-start .form-group.mb-3.mt-3.fo-flx input {
     width: 17% !important;
@@ -267,16 +275,19 @@ a.btn.btn-primary:hover {
     justify-content: center;
 }
 .copyright {
-    position: relative;
-    display: flex;
-    justify-content: center;
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center;  */
+    bottom: 0;
 }
 .copyright h6 {
-    position: absolute;
-    bottom: 30px;
-    margin: auto;
+    position: relative;
+    /* bottom: 30px; */
+    margin: 50px 0 0 0;
     display: block;
     text-align: center;
+    left: 0;
+    right: 0;
 }
 img.min-icon {
     width: 16px !important;

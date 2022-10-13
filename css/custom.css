@@ -1,0 +1,23 @@
+.shadow-cs {
+    box-shadow: 0 .1rem .1rem rgba(0,0,0,.04)!important;
+}
+.form-control:focus {
+    border:1px solid #F59E0B!important;
+}
+.error-msg{
+    color: #dc2626;
+    text-align: left!important;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.error-msg-tc{
+    color: #dc2626;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.form-wrapper-login{
+    margin-top: 10%;
+    padding: 0 20% 0 20%;
+}
