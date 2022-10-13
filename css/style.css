@@ -28,6 +28,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+.fo-flx-sb-bl{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 .fo-flx-js-sb{
 display: flex;
 justify-content: space-between;
@@ -44,11 +49,20 @@ align-items: center;
 }
 .fo-flx{
     display: flex;
+    align-items: center;
 }
 .card {
     padding: 40px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(89, 89, 89, 0.16) 0px 1px 4px;
+}
+.card-pd{
+    padding: 16px;
+}
+.mr0-5{
+    margin-right: 5px;
 }
 .mr1{
     margin-right: 10px;
@@ -243,7 +257,7 @@ a.btn.btn-primary:hover {
     margin-top: 40px;
     font-weight: 700;
 }
-.form-wrapper.text-center a {
+.form-wrapper a {
     font-size: 14px;
     color: #f59e0b;
     font-weight: 800;
@@ -315,6 +329,9 @@ a.navbar-brand img {
 .container-fluid {
     padding-left: 56px;
     padding-right: 56px;
+    
+}
+.bg-white{
     background-color: #fff;
 }
 ul.nav.navbar-nav.navbar-right li a {
@@ -467,3 +484,132 @@ ul.breadcrumb {
     margin-bottom: 0;
 }
 /* Breadcrumb css ends */
+
+/* Dashboard css starts here */
+
+.icon-wrap {
+    padding: 13px;
+    border-radius: 50px;
+    width: 52px;
+    text-align: center;
+    margin-right: 10px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.db-content-top .card .content h3 {
+    color: #606161;
+    margin: 0;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.db-content-top .card .content h6 {
+    margin: 0;
+}
+.db-content-top{
+    margin: 25px 0px;
+}
+.orange{
+    background: #FC8B2A;
+}
+.merun{
+    background: #BC7D85;
+}
+.fadeblue{
+    background: #63719C;
+}
+.solidblue{
+    background: #429EBD;
+}
+.greenishblue{
+    background: #01D8DD;
+}
+.db-content-top .card {
+    width: 18.5%;
+}
+.t1 p {
+    font-size: 26px;
+    margin: 0;
+    color: #fff;
+}
+.t1 h6 {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.t2 h1 {
+    font-size: 45px;
+    color: #fff;
+}
+.t2 h6 {
+    font-size: 23px !important;
+    color: #A9DE6C;
+    margin: 0;
+}
+.progressbar-wrapper .card {
+    width: 46.5%;
+}
+h3{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #606161;
+}
+.progress{
+    height: 6px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: #DFDFDF;
+}
+.progressbar-wrapper h6 {
+    margin-bottom: 15px;
+}
+.progressbar-wrapper p {
+    font-size: 12px;
+    color: #929292;
+    margin-bottom: 0;
+}
+.card-heading h4 {
+    font-size: 18px;
+}
+.text-green{
+    font-size: 14px;
+    color: #58CE15;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.text-orange{
+    font-size: 14px;
+    color: #FAAB68;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.fo-mtop{
+    margin-top: 25px;
+}
+a.faded-button{
+    background-color: #E2E2E2;
+    text-decoration: none;
+    color: #727272;
+    padding: 5px 15px;
+    font-size: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.card.card-pd.fo-mtop h6 {
+    margin: 0;
+}
+.chart-details .left {
+    width: 100%;
+}
+.chart-details h4 {
+    font-size: 18px;
+    color: #929292;
+    font-weight: 600;
+}
+.wr-right h1 {
+    margin: 0;
+    margin-right: 10px;
+    color: #929292;
+    font-weight: 100;
+}
+/* Dashboard css ends here */
