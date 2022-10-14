@@ -1,143 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title> CommerzNXT </title>
-    <link rel="icon" href="img/logo-wo.png" type="image/x-icon">
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="container-fluid bo-bottom bg-white">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img src="img/logo-main.png" alt="">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Inventory Analysis <span>
-                  <img src="img/down.svg" alt="">
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#">Stock Overview</a>
-                </li>
-                <li>
-                  <a href="#">Product Analysis</a>
-                </li>
-                <li>
-                  <a href="#">Products to be reordered</a>
-                </li>
-              </ul>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="crm-index.html">CRM <span>
-                  <img src="img/down.svg" alt="">
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#">Customer</a>
-                </li>
-                <li>
-                  <a href="#">Company</a>
-                </li>
-                <li>
-                  <a href="#">Quotes</a>
-                </li>
-                <li>
-                  <a href="#">Order</a>
-                </li>
-                <li>
-                  <a href="#">Invoice</a>
-                </li>
-                
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sales Analysis <span>
-                  <img src="img/down.svg" alt="">
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#">Page 1-1</a>
-                </li>
-                <li>
-                  <a href="#">Page 1-2</a>
-                </li>
-                <li>
-                  <a href="#">Page 1-3</a>
-                </li>
-              </ul>
-            </li>
-            </li>
-            <li>
-              <a href="#">User Management</a>
-            </li>
-            <li>
-              <a href="#">Roles & Permission</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <div class="nav-right-content fo-flx">
-              <div class="img-wr">
-                <img src="img/notification.svg" alt="">
-              </div>
-              <div class="content fo-flx">
-                <div class="prof fo-flx">
-                  <div class="dd">
-                    <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome</a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a href="#">Page 1-1</a>
-                        </li>
-                        <li>
-                          <a href="#">Page 1-2</a>
-                        </li>
-                        <li>
-                          <a href="#">Page 1-3</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <h6>Richard Welsh</h6>
-                  </div>
-                  <img src="img/prof-1.png" alt="">
-                </div>
-              </div>
-            </div>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container-fluid .remove-margin bg-white">
-      <div class="db-top-wrapper">
-        <div class="left">
-                   
-            <h4>Customer Status Overview</h4>    
-            <ul class="breadcrumb">
-                <li><a href="#">CRM</a></li>
-                <li><a href="#">Customer Status Overview</a></li>
-                <li>Customer Detail</li>
-               
-              </ul>                    
-               
-        </div>
-        
-      </div>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title> CommerzNXT </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo-wo.png" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm ">
+  <div class="container-fluid bo-bottom bg-white">
+    <a class="navbar-brand" href="#"><img src="img/logo-main.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>    
+      </ul>
     </div>
-  </body>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+</div>
+
+</body>
 </html>
+
+
