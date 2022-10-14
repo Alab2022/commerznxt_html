@@ -52,7 +52,7 @@ align-items: center;
     align-items: center;
 }
 .card {
-    padding: 40px;
+    // padding: 40px;
     border: none;
     border-radius: 5px;
     background-color: #fff;
@@ -228,6 +228,7 @@ button.btn.btn-primary {
     height: 50px;
     font-size: 14px;
     font-weight: 800;
+    border: 0;
 }
 a.btn.btn-primary {
     background: #F15A29;
@@ -405,7 +406,7 @@ ul.nav.navbar-nav{
     margin-top: 0 !important;
 }
 .db-top-wrapper{
-padding: 25px 0;
+padding: 25px 0 10px;
 }
 .db-top-wrapper .left .profile-sec img {
     width: 70px;
@@ -457,22 +458,27 @@ ul.dropdown-menu {
 }
 
 ul.breadcrumb {
-    padding: 10px 0px;
+    padding: 3px 0px 15px;
     list-style: none;
   }
   ul.breadcrumb li {
     display: inline;
     font-size: 14px;
     color: #ABABAB;
+    margin-right: 5px;
   }
   ul.breadcrumb li+li:before {
     padding: 2px;
     color: #ABABAB;
-    content: "> ";
+    content: "/";
+    margin-right: 5px;
   }
   ul.breadcrumb li a {
-    color: #0275d8;
+    color: var(--primary-text);
     text-decoration: none;
+  }
+  ul.breadcrumb li:first-child a {
+    padding-left: 0px;
   }
   ul.breadcrumb li a:hover {
     color: #01447e;
