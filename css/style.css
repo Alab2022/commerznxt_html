@@ -364,10 +364,10 @@ ul.nav.navbar-nav a {
 }
 .navbar-brand{
     padding: 0;
-    margin-top: 10px;
+    margin-top: 9px;
 }
 .nav>li>a:focus, .nav>li>a:hover{
-    border-bottom: 5px solid #F15A29 ;
+    border-bottom: 3px solid #F15A29 ;
     color: #F15A29 ;
     background: none;
 }
