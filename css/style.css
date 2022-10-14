@@ -100,16 +100,29 @@ body {
 .ml3 {
   margin-left: 30px;
 }
+<<<<<<< HEAD
 
+=======
+.mr5{
+    margin-right: 50px;
+}
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 h6.st-wi {
   width: 110px;
   white-space: nowrap;
 }
+<<<<<<< HEAD
 
 h6 {
   font-weight: 700 !important;
   color: #505050;
   font-size: 14px !important;
+=======
+h6{
+    font-weight: 600 !important;
+    color: #505050;
+    font-size: 14px !important;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 h6.dark {
@@ -220,6 +233,14 @@ h5 {
   background: #98B694;
   color: #fff;
 }
+.container-fluid {
+    padding-left: 56px;
+    padding-right: 56px;
+    
+}
+.bg-white{
+    background-color: #fff;
+}
 
 /* Login pages css starts here */
 .image-wrapper {
@@ -270,10 +291,18 @@ input {
 }
 
 button.btn.btn-primary {
+<<<<<<< HEAD
   background: #F15A29;
   font-size: 14px;
   font-weight: 800;
   border: 0;
+=======
+    background: #F15A29;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    font-weight: 800;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 a.btn.btn-primary {
@@ -394,6 +423,7 @@ a.navbar-brand img {
 
 /* Login pages css ends here */
 /* Navbar css starts here */
+<<<<<<< HEAD
 .navbar {
   border: none !important;
   margin-bottom: 0 !important;
@@ -487,11 +517,78 @@ ul.nav.navbar-nav {
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
   margin-left: 0 !important;
+=======
+ul.navbar-nav{
+    height: 50px;
+}
+a.navbar-brand{
+    margin: 0;
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+.img-wr {
+    margin-right: 15px;
 }
 
+div#collapsibleNavbar {
+    justify-content: right;
+}
+a.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #505050;
+    padding: 15px;
+    padding-bottom: 8px;
+}
+ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle {
+    margin-right: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+.nav-right-content p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+a.nav-link:hover {
+    border-bottom: 5px solid #e75929;
+    color: #e75929;
+}
+ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle:hover{
+    border: none;
+}
+ul.dropdown-menu.show {
+    border-radius: 0;
+    border: none;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    padding: 5px 20px;
+}
+ul.nav.navbar-nav.navbar-right ul.dropdown-menu.show {
+    left: -110px !important;
+}
+ul.dropdown-menu.show li {
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #505050;
+}
+ul.dropdown-menu.show li:last-child {
+    border-bottom: none;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
+}
+
+<<<<<<< HEAD
 /* Navbar css ends here */
 .remove-margin {
   margin-top: 0 !important;
+=======
+.remove-margin{
+    margin: 0 !important;
+}
+.remove-padding{
+    padding: 0 !important;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 .db-top-wrapper {
@@ -524,9 +621,15 @@ ul.nav.navbar-nav {
 }
 
 .date-picker form input {
+<<<<<<< HEAD
   height: 36px;
   padding: 0 10px;
   margin-right: 10px;
+=======
+    height: 36px;   
+    padding: 0 10px;
+    margin-right: 10px;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 .db-top-wrapper .right {
@@ -546,7 +649,9 @@ ul.dropdown-menu {
 .dropdown-menu > li > a {
   padding: 10px 0;
 }
-
+.bo-bottom{
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
 /* Breadcrumb css starts */
 .breadcrumb {
   background: none;
@@ -606,14 +711,26 @@ ul.breadcrumb li a:hover {
 }
 
 .db-content-top .card .content h3 {
+<<<<<<< HEAD
   color: #606161;
   margin: 0;
   font-size: 28px;
   margin-bottom: 8px;
+=======
+    color: #4a4a4a;
+    margin: 0;
+    font-size: 28px;
+    margin-bottom: 8px;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 .db-content-top .card .content h6 {
+<<<<<<< HEAD
   margin: 0;
+=======
+    margin: 0;
+    font-size: 13px !important;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 .db-content-top {
@@ -695,6 +812,7 @@ h3 {
 }
 
 .card-heading h4 {
+<<<<<<< HEAD
   font-size: 18px;
 }
 
@@ -710,6 +828,34 @@ h3 {
   color: #FAAB68;
   font-weight: 700;
   margin-bottom: 0;
+=======
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-green{
+    font-size: 14px;
+    color: #58CE15;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.text-orange{
+    font-size: 14px;
+    color: #FAAB68;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.fo-mtop{
+    margin-top: 25px;
+}
+a.faded-button{
+    background-color: #E2E2E2;
+    text-decoration: none;
+    color: #727272;
+    padding: 5px 15px;
+    font-size: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
 }
 
 .fo-mtop {
@@ -746,5 +892,17 @@ a.faded-button {
   color: #929292;
   font-weight: 100;
 }
+<<<<<<< HEAD
 
 /* Dashboard css ends here *//*# sourceMappingURL=style.css.map */
+=======
+.wr-right{
+    float: right;
+}
+.chart-details .left .content h6 {
+    font-size: 12px !important;
+    color: #929292;
+    font-weight: 400 !important;
+}
+/* Dashboard css ends here */
+>>>>>>> b5d3f52d135f2b896605960df66490a9d41e7131
