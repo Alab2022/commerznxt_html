@@ -29,6 +29,18 @@
     padding-bottom: 16px;
 }
 
-/* Tab styles starts here */
-
-
+:root {
+    --body-background: #eff2f6;
+    --white: #fff; 
+  }
+  
+  body.inner{
+    background-color: var(--body-background)!important;
+  }
+.nav-tabs.page-nav{
+    background: var(--white);
+    padding: 0 46px;
+}
+.tab-page{
+    padding: 0 46px;
+}
