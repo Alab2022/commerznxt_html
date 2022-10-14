@@ -37,6 +37,7 @@
           <div class="col-md-4">
             <div class="card">
               <div class="card-body">
+                <!-- Search Contacts -->
                 <div class="d-flex">
                 <div class="inner-addon right-addon search_md">
         <i class="bi bi-search"></i>
@@ -44,6 +45,54 @@
         </div>
         <button type="button" class="btn btn-primary ms-2">Primary</button>
                 </div>
+              <ul class="cont-list">
+                <li>
+                  <a class="d-flex justify-content-between align-items-center" href="#">
+                    <div class="d-flex">
+                  <div class="avatar-wrapper">
+                    <img src="img/faces/face23.jpg" class="avatar-med"/>
+                  </div>
+                  <div>
+                    <h4 class="cont-name-sml">Amelia</h4>
+                    <h4 class="cont-desc-sml">Sales Executive</h4>
+                  </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex justify-content-between align-items-center" href="#">
+                    <div class="d-flex">
+                  <div class="avatar-wrapper">
+                    <img src="img/faces/face23.jpg" class="avatar-med"/>
+                  </div>
+                  <div>
+                    <h4 class="cont-name-sml">Amelia</h4>
+                    <h4 class="cont-desc-sml">Sales Executive</h4>
+                  </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex justify-content-between align-items-center" href="#">
+                    <div class="d-flex">
+                  <div class="avatar-wrapper">
+                    <img src="img/faces/face23.jpg" class="avatar-med"/>
+                  </div>
+                  <div>
+                    <h4 class="cont-name-sml">Amelia</h4>
+                    <h4 class="cont-desc-sml">Sales Executive</h4>
+                  </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                  </a>
+                </li>
+              </ul>
+
+
+
+
               </div>
             </div>
           </div>
