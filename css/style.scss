@@ -8,10 +8,6 @@ body{
     font-family: 'Mulish', sans-serif !important;
     background-color: #fff !important;
 }
-.inner-page{
-    background-color: #EFF2F6;
-    min-height: 100vh;
-}
 .fo-flx-center{
     display: flex;
     justify-content: space-between;
@@ -502,14 +498,13 @@ ul.breadcrumb {
     align-items: center;
 }
 .db-content-top .card .content h3 {
-    color: #4a4a4a;
+    color: #606161;
     margin: 0;
     font-size: 28px;
     margin-bottom: 8px;
 }
 .db-content-top .card .content h6 {
     margin: 0;
-    font-size: 13px !important;
 }
 .db-content-top{
     margin: 25px 0px;
@@ -575,7 +570,6 @@ h3{
 }
 .card-heading h4 {
     font-size: 18px;
-    font-weight: 600;
 }
 .text-green{
     font-size: 14px;
@@ -617,13 +611,5 @@ a.faded-button{
     margin-right: 10px;
     color: #929292;
     font-weight: 100;
-}
-.wr-right{
-    float: right;
-}
-.chart-details .left .content h6 {
-    font-size: 12px !important;
-    color: #929292;
-    font-weight: 400 !important;
 }
 /* Dashboard css ends here */
