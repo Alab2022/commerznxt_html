@@ -10,7 +10,6 @@
               </ul>              
         </div>
 </html>
-=======
 
 
     <ul class="nav nav-tabs page-nav" id="myTab" role="tablist">
@@ -114,4 +113,4 @@
     <?php include('common/footer.php'); ?> 
 
   
->>>>>>> c75d32d93d87048a29d0b8e4ddfa5a1f2cff0714
+
