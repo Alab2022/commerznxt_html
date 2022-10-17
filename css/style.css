@@ -17,7 +17,6 @@ body {
   font-family: "Mulish", sans-serif !important;
   background-color: var(--body-background) !important;
 }
-
 .fo-flx-center {
   display: flex;
   justify-content: space-between;
@@ -108,6 +107,9 @@ body {
 
 .ml3 {
   margin-left: 30px;
+}
+.mr5{
+    margin-right: 50px;
 }
 
 h6.st-wi {
@@ -397,6 +399,9 @@ img.min-icon {
   top: 16px;
 }
 
+/* Login pages css ends here */
+/* Navbar css starts here */
+
 a.navbar-brand img {
   width: 150px;
 }
@@ -501,6 +506,70 @@ ul.nav.navbar-nav {
 /* Navbar css ends here */
 .remove-margin {
   margin-top: 0 !important;
+ul.navbar-nav{
+    height: 50px;
+}
+a.navbar-brand{
+    margin: 0;
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+.img-wr {
+    margin-right: 15px;
+}
+
+div#collapsibleNavbar {
+    justify-content: right;
+}
+a.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #505050;
+    padding: 15px;
+    padding-bottom: 8px;
+}
+ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle {
+    margin-right: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+.nav-right-content p {
+    margin-bottom: 0px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+a.nav-link:hover {
+    border-bottom: 5px solid #e75929;
+    color: #e75929;
+}
+ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle:hover{
+    border: none;
+}
+ul.dropdown-menu.show {
+    border-radius: 0;
+    border: none;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    padding: 5px 20px;
+}
+ul.nav.navbar-nav.navbar-right ul.dropdown-menu.show {
+    left: -110px !important;
+}
+ul.dropdown-menu.show li {
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #505050;
+}
+ul.dropdown-menu.show li:last-child {
+    border-bottom: none;
+}
+
+.remove-margin{
+    margin: 0 !important;
+}
+.remove-padding{
+    padding: 0 !important;
 }
 
 .db-top-wrapper {
@@ -719,6 +788,32 @@ h3 {
   color: #FAAB68;
   font-weight: 700;
   margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-green{
+    font-size: 14px;
+    color: #58CE15;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.text-orange{
+    font-size: 14px;
+    color: #FAAB68;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.fo-mtop{
+    margin-top: 25px;
+}
+a.faded-button{
+    background-color: #E2E2E2;
+    text-decoration: none;
+    color: #727272;
+    padding: 5px 15px;
+    font-size: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
 }
 
 .fo-mtop {
@@ -757,3 +852,12 @@ a.faded-button {
 }
 
 /* Dashboard css ends here *//*# sourceMappingURL=style.css.map */
+.wr-right{
+    float: right;
+}
+.chart-details .left .content h6 {
+    font-size: 12px !important;
+    color: #929292;
+    font-weight: 400 !important;
+}
+/* Dashboard css ends here */

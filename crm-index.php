@@ -7,11 +7,10 @@
             <ul class="breadcrumb">
                 <li><a href="#">CRM</a></li>
                 <li><a href="#">Customer Status Overview</a></li>
-                <li>Customer Detail</li>               
               </ul>              
         </div>
-      </div>
-    </div>
+</html>
+
 
 
     <ul class="nav nav-tabs page-nav" id="myTab" role="tablist">
@@ -115,3 +114,4 @@
     <?php include('common/footer.php'); ?> 
 
   
+
