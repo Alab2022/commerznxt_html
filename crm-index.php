@@ -9,7 +9,8 @@
                 <li><a href="#">Customer Status Overview</a></li>
               </ul>              
         </div>
-</html>
+        </div>
+        </div>
 
 
     <ul class="nav nav-tabs page-nav" id="myTab" role="tablist">
