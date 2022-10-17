@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bo-bottom remove-padding">
+<nav class="navbar navbar-expand-sm bo-bottom remove-padding shadow-header">
   <div class="container-fluid bg-white">
     <a class="navbar-brand" href="#"><img src="img/logo-main.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
