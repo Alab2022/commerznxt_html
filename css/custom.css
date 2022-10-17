@@ -5,6 +5,8 @@
   --orange:#F59E0B;
   --primary-text:#1e4454;
   --secondary-text:#9ca8ba;
+
+  --secondary-button:#63719C;
 }
 
 body {
@@ -54,7 +56,7 @@ body.inner {
 
 .nav-tabs.page-nav {
   background: var(--white);
-  padding: 0 46px;
+  padding: 0 56px;
 }
 
 .tab-page {
