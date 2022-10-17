@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+:root {
+  --body-background: #eff2f6;
+  --white: #fff;
+  --error: #dc2626;
+  --orange:#F59E0B;
+  --primary-text:#1e4454;
+  --secondary-text:#9ca8ba;
+
+  --secondary-button:#63719C;
+}
 * {
   margin: 0;
   padding: 0;
@@ -541,7 +551,7 @@ ul.dropdown-menu {
 }
 
 ul.breadcrumb {
-  padding: 3px 0px 15px;
+  padding: 3px 0px 8px;
   list-style: none;
 }
 
@@ -754,3 +764,64 @@ a.faded-button {
     font-weight: 400 !important;
 }
 /* Dashboard css ends here */
+
+/* CRM CSS STARTS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
+.casualities{
+  margin-top: 30px;
+}
+.cd-custom-pd{
+  padding: 20px;
+}
+.crm{
+  position: relative;
+}
+.crm .db-top-wrapper {
+  padding: 0;
+}
+.crm .db-top-wrapper .left .content h3{
+  font-size: 28px !important;
+  font-weight: 600;
+}
+.casualities .content span {
+  background: #EFF2F6;
+  padding: 10px 13px;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.casualities .content h6 {
+  margin-bottom: 0;
+  font-size: 14px !important;
+}
+.casualities .content h4 {
+  margin-bottom: 0;
+}
+.crm .db-top-wrapper .left .profile-sec img{
+  width: 100px;
+}
+.crm .db-top-wrapper h6{
+  font-size: 16px !important;
+  margin-top: 4px;
+}
+.crm .db-top-wrapper h4{
+font-size: 15px !important;
+font-weight: 600;
+}
+.casualities .content span img {
+  width: 18px;
+}
+.crm .db-top-wrapper p {
+  font-size: 14px;
+  color: #a3a3a3;
+}
+.bg-drk-blue{
+  background-color: var(--secondary-button) !important;
+  padding: 5px 20px;
+}
+.crm button.btn.btn-secondary.bg-drk-blue {
+  position: absolute;
+  right: 37px;
+}
