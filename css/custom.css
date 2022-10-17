@@ -45,7 +45,7 @@ body {
 
 .navbar-nav > li > a {
   padding-top: 15px;
-  padding-bottom: 16px;
+  padding-bottom: 9px;
 }
 
 body.inner {
@@ -183,4 +183,4 @@ ul.cont-list li a i {
 .avatar-wrapper {
   width: 3rem;
   margin-right: 10px;
-}/*# sourceMappingURL=custom.css.map */
+}
