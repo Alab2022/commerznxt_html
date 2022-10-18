@@ -316,8 +316,99 @@
           <!-- Quotes Content -->
           <div class="tab-pane fade show " id="quotes" role="tabpanel" aria-labelledby="quotes-tab">
             <div class="row">
-              <div class="card">
-                <div class="card-body">
+            <div class="card remove-padding">
+                <div class="crm-cd-header fo-flx-center bo-bottom">
+                  <h4>Quotes <span>06</span></h4>
+                  <div class="d-flex">
+              <div class="inner-addon right-addon search_md">
+                <i class="bi bi-search"></i>
+                <input type="text" class="form-control" placeholder="Search" />
+              </div>
+              <button type="button" class="btn btn-secondary ms-2" >Create</button>
+            </div>
+                </div>
+                <div class="card-body fo-padding">
+                  <div class="list-view fo-flx-top">
+                    <div class="card custom-list">
+                        <div>                        
+                        <h1 class="big-total"> €4,275 </h1>
+                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
+                          <strong>Qty: </strong> 100</p>
+                        </div>
+                        <div class="quote-message bo-primary">
+                          <p>Waiting for Approval</p>
+                        </div>
+                    </div>
+                    <div class="card custom-list">
+                        <div>                        
+                        <h1 class="big-total"> €4,275 </h1>
+                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
+                          <strong>Qty: </strong> 100</p>
+                        </div>
+                        <div class="quote-message bo-success">
+                          <p>Approved</p>
+                        </div>
+                    </div>
+                    <div class="card custom-list">
+                        <div>                        
+                        <h1 class="big-total"> €4,275 </h1>
+                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
+                          <strong>Qty: </strong> 100</p>
+                        </div>
+                        <div class="quote-message bo-hold">
+                          <p>Hold</p>
+                        </div>
+                    </div>
+                    <div class="card custom-list">
+                        <div>                        
+                        <h1 class="big-total"> €4,275 </h1>
+                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
+                          <strong>Qty: </strong> 100</p>
+                        </div>
+                        <div class="quote-message bo-sent">
+                          <p>Mail Sent</p>
+                        </div>
+                    </div>
+                    <div class="card custom-list">
+                        <div>                        
+                        <h1 class="big-total"> €4,275 </h1>
+                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
+                          <strong>Qty: </strong> 100</p>
+                        </div>
+                        <div class="quote-message bo-sent">
+                          <p>Mail Sent</p>
+                        </div>
+                    </div>
+                    <div class="card custom-list">
+                        <div>                        
+                        <h1 class="big-total"> €4,275 </h1>
+                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
+                          <strong>Qty: </strong> 100</p>
+                        </div>
+                        <div class="quote-message bo-primary">
+                          <p>Waiting for Approval</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card remove-padding">
+              <div class="crm-cd-header fo-flx-center ">
+                  <h4>Quote Detail View </h4>
+                  <div class="button-wrapper mt-3 fo-flx-right align-center">
+                  <div class="fo-tooltip" data-bs-toggle="tooltip" title="Lorem Ipsum has been the
+industry's standard">
+                    <h6 class="text-green">Approved <span><i class="bi bi-info-circle-fill"></i></span></h6>
+                  </div>
+                      <button type="button" class="btn btn-secondary mr1">Create</button>
+                      <button type="button" class="btn btn-secondary-light">Edit</button>
+                    </div>
+                  
+                  
+                </div>
+                <div class="divider w-100 remove-padding"></div>
+                <div class="card-body fo-padding">
                 <div class="brand-wrapper fo-flx-bottom">
                     <div class="left fo-flx-top">
                         <div class="img-sec mr3">
@@ -326,7 +417,7 @@
                         <div class="casualities">
                             <h1 class="mb-3">Blue Bridge</h1>
                             <div class="details fo-flx">
-                                <h6 class="st-wi">QUOTE No </h6>
+                                <h6 class="st-wi">QUOTE NO </h6>
                                 <h6>#009-01</h6>
                             </div>
                             <div class="details fo-flx">
