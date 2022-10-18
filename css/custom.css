@@ -342,7 +342,6 @@ tl-item.active .tl-dot:before {
 .tl-dot {
   position: relative;
   border-color: rgba(160, 175, 185, .15);
-  padding-top: 19px;
 }
 
 .tl-content{
@@ -380,7 +379,7 @@ tl-item.active .tl-dot:before {
 }
 
 .b-email {
-  border-color: #F98F45!important;
+  border-color: var(--primary)!important;
 }
 
 .b-primary {
@@ -395,10 +394,10 @@ tl-item.active .tl-dot:before {
   font-family: 'Glyphicons Halflings';
 } */
 .tl-dot.b-email i{
-  color: #F98F45!important;
+  color: var(--white)!important;
     width: 40px;
     height: 40px;
-    background: #000;
+    background:var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;

@@ -237,31 +237,25 @@
                     <div class="tl-item">
                         <div class="tl-dot b-primary"><i class="bi bi-envelope-open-fill"></i></div>
                         <div class="tl-content">
-                            <div class="">Do you know how Google search works.</div>
+                            <div class="">Created Quote by David (Role:Sales Exec1)</div>
                             <div class="tl-date text-muted mt-1">45 minutes ago</div>
                         </div>
                     </div>
                     <div class="tl-item">
                         <div class="tl-dot b-danger"><i class="bi bi-envelope-open-fill"></i></div>
                         <div class="tl-content">
-                            <div class="">Thanks to <a href="#" data-abc="true">@apple</a>, for iphone 7</div>
+                            <div class="">Order Id <a href="#" data-abc="true">#56347</a>, has been created by <b>David (Role:Sales Exec1)</b></div>
                             <div class="tl-date text-muted mt-1">1 day ago</div>
                         </div>
                     </div>
                     <div class="tl-item">
                         <div class="tl-dot b-danger"><i class="bi bi-envelope-open-fill"></i></div>
                         <div class="tl-content">
-                            <div class="">Order placed <a href="#" data-abc="true">@eBay</a> you will get your products</div>
+                            <div class="">SMS has been sent by <b>Richard Welsh</b></div>
                             <div class="tl-date text-muted mt-1">1 Week ago</div>
                         </div>
                     </div>
-                    <div class="tl-item">
-                        <div class="tl-dot b-warning"><i class="bi bi-envelope-open-fill"></i></div>
-                        <div class="tl-content">
-                            <div class="">Learn how to use <a href="#" data-abc="true">Google Analytics</a> to discover vital information about your readers.</div>
-                            <div class="tl-date text-muted mt-1">3 days ago</div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             
