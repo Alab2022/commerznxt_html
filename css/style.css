@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+
+
 :root {
   --body-background: #eff2f6;
   --white: #fff;
@@ -62,11 +64,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.fo-flx-right{
+  justify-content: right;
+  display: flex;
+}
 .align-right {
   text-align: right;
 }
-
+.align-center{
+align-items: center;
+}
 .right p, h1 {
   margin-bottom: 0;
 }
@@ -128,7 +135,7 @@ h6.st-wi {
 }
 h6{
     font-weight: 600 !important;
-    color: #505050;
+    color: #797979;
     font-size: 14px !important;
 }
 
@@ -495,7 +502,7 @@ ul.dropdown-menu.show li:last-child {
 
 .db-top-wrapper .left .profile-sec img {
   width: 70px;
-  margin-right: 20px;
+  margin-right:20px;
 }
 
 .db-top-wrapper .left .content h3 {
@@ -572,7 +579,7 @@ ul.breadcrumb li + li:before {
 ul.breadcrumb li a {
   color: var(--primary-text);
   text-decoration: none;
-}
+}       
 
 ul.breadcrumb li:first-child a {
   padding-left: 0px;
@@ -585,7 +592,7 @@ ul.breadcrumb li a:hover {
 
 .db-top-wrapper h4 {
   font-size: 20px;
-  color: #707070;
+  color: #3c3c3c;
   margin-bottom: 0;
 }
 
@@ -765,12 +772,13 @@ a.faded-button {
 }
 /* Dashboard css ends here */
 
+
 /* CRM CSS STARTS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .casualities{
-  margin-top: 30px;
+  margin-top: 15px;
 }
 .cd-custom-pd{
-  padding: 20px;
+  padding: 0px;
 }
 .crm{
   position: relative;
@@ -786,9 +794,9 @@ a.faded-button {
   background: #EFF2F6;
   padding: 10px 13px;
   border-radius: 50px;
+  display: flex;
   height: 40px;
   width: 40px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -804,11 +812,12 @@ a.faded-button {
 }
 .crm .db-top-wrapper h6{
   font-size: 16px !important;
-  margin-top: 4px;
+  color: #9E9E9E;
 }
 .crm .db-top-wrapper h4{
 font-size: 15px !important;
 font-weight: 600;
+color: #585858;
 }
 .casualities .content span img {
   width: 18px;
@@ -819,9 +828,144 @@ font-weight: 600;
 }
 .bg-drk-blue{
   background-color: var(--secondary-button) !important;
-  padding: 5px 20px;
+  padding: 5px 15px;
 }
 .crm button.btn.btn-secondary.bg-drk-blue {
   position: absolute;
-  right: 37px;
+  right: 16px;
 }
+button.btn.btn-secondary.bg-drk-blue span img {
+  margin-top: -3px;
+}
+.crm-cd-header{
+  padding: 16px 28px;
+}
+.fo-padding{
+  padding: 28px;
+}
+.crm-cd-header h4 {
+  font-size: 18px;
+  color: #4B4B5A;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.crm-cd-header h6 {
+  margin-bottom: 0;
+  color: #9E9E9E;
+}
+.crm-cd-header p {
+  margin-bottom: 0;
+  color: #4A4A4A;
+  margin-left: 5px;
+  margin-right: 13px;
+}
+.comments textarea {
+  width: 100%;
+  min-height: 80px;
+  max-height: 120px;
+  border-radius: 5px;
+  border: 1.3px solid #E1E1E1;
+}
+.button-wrapper h6 {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+/* div#offcanvasRight {
+  padding:10px 20px;
+} */
+.accordion-body .form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1.5px solid #E3E3E3;
+}
+.form-flex .form-group {
+  width: 48.5%;
+}
+.accordion-item .form-group{
+  margin-bottom: 10px;
+  position: relative;
+}
+.accordion-body .form-group label{
+  font-size: 14px;
+  font-weight: 500;
+  color: #A8A8A8;
+}
+.accordion-item {
+  border: none;
+}
+button.accordion-button {
+  color: #577B8A !important;
+  background: #E0EDF2;
+  border-radius: 5px;
+  border: none;
+}
+.accordion-button:not(.collapsed){
+  box-shadow: none !important;
+  color: #577B8A !important;
+  background: #E0EDF2;
+}
+.profile-upload {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile-upload img {
+  width: 150px;
+}
+.settings {
+  width: 150px;
+  height: 150px;
+  background: #0000005c;
+  border-radius: 50%;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-upload {
+  position: relative;
+  transition: 0.3s ease-in;
+}
+.profile-upload .prof-ess {
+  display: none;
+}
+.profile-upload:hover .prof-ess {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 90px;
+}
+button.accordion-button.collapsed {
+  margin-bottom: 10px;
+}
+.accordion-item .form-group textarea {
+  border: 1.5px solid #cbd5e1 ;
+  border-radius: 5px;
+  width: 100%;
+  height: 80px;
+}
+.accordion-item button.btn.btn-secondary.dropdown-toggle {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 1px solid #cbd5e1;
+}
+.dropdown i.bi.bi-chevron-down {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  color: #BFBFBF;
+}
+.form-group ul.dropdown-menu.show {
+  width: 100%;
+}
+.form-group.cutom-wi {
+  width: 60%;
+  margin-right: 12px;
+}
+h5#offcanvasRightLabel {
+  font-size: 20px !important;
+  color: #798692 !important;
+}
+/* CRM CSS ENDS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */

@@ -403,3 +403,37 @@ tl-item.active .tl-dot:before {
     justify-content: center;
     border-radius: 50%;
 }
+.sticky {
+  flex:1;
+  
+  margin:10px;
+  position:sticky;
+  top:20px;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: .45rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(27, 27, 27, .4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+.offcanvas-header {
+  padding: 10px 20px 5px;
+}
+.accordion-button {
+  padding: 7px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.accordion-body {
+  padding: 10px 10px;
+}
+.accordion-button::after{
+  width: 20px;
+  height: 20px;
+}
