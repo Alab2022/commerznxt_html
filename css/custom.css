@@ -31,7 +31,7 @@ body {
   text-align: left !important;
   font-size: 13px;
   font-weight: 500;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .error-msg-tc {
@@ -534,8 +534,12 @@ i.pdf{
 }
 .accordion-button::after{
   width: 15px;
-  height: 10px;
-  background-size: 80%;
+    height: 10px;
+    background-size: 52%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 13px;
+    background-position: center;
 }
 .card-pad-avatar {
   padding: 25px 23px;
@@ -572,21 +576,21 @@ button.btn.btn-primary.plus i{
     margin-top: -3px;
 }
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ 
+	.navbar .nav-item.inner .dropdown-menu{ display: none; }
+	.navbar .nav-item.inner:hover .dropdown-menu{ 
     display: block; 
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-	.navbar .nav-item .dropdown-menu{ margin-top:-3px; }
+	.navbar .nav-item.inner .dropdown-menu{ margin-top:-3px; }
+  
 }	
-a.nav-link {
+.nav-item.inner a.nav-link {
   border-bottom: 3px solid #ffffff;
  
 }
 .dropdown-menu > li > a {
-  padding: 10px 0;
+  padding: 8px 0;
   border-bottom: 1px solid #f1f1f1;
 }
 .dropdown-menu > li:last-child > a {
@@ -599,4 +603,26 @@ a.nav-link {
   border-bottom: 1px solid #f1f1f1;
   border-left: 1px solid #f1f1f1;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+.navbar .nav-item .dropdown-menu.last{ 
+  right: 0;
+  margin-top: 6px;
+  left: auto;
+}
+h6 strong{
+  color: #515151;
+
+}
+.dropdown-item i {
+  font-size: 22px;
+  margin-right: 10px;
+  color: #64748b;
+}
+.dropdown-menu > li > a {
+  display: flex;
+  align-items: center;
+}
+.form-control-lg{
+  height: 50px;
 }

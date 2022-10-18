@@ -540,14 +540,20 @@
           <div class="tab-pane fade show " id="quotes" role="tabpanel" aria-labelledby="quotes-tab">
             <div class="row">
             <div class="card remove-padding">
-                <div class="crm-cd-header fo-flx-center bo-bottom">
-                  <h4>Quotes <span>06</span></h4>
+              <div class="crm-cd-header fo-flx-center bo-bottom my-3">
+                  <h4>Quotes </h4>
+                  <div>
+                    <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
+                  </div>
+                </div>
+                <div class="crm-cd-header fo-flx-center">
+                  <h4>Total Quotes Created<span>06</span></h4>
                   <div class="d-flex">
               <div class="inner-addon right-addon search_md">
                 <i class="bi bi-search"></i>
                 <input type="text" class="form-control" placeholder="Search" />
               </div>
-              <button type="button" class="btn btn-secondary ms-2" >Create</button>
+              <button type="button" class="btn btn-secondary ms-2 btn-sm" >Create</button>
             </div>
                 </div>
                 <div class="card-body fo-padding">
@@ -619,13 +625,13 @@
               <div class="card remove-padding">
               <div class="crm-cd-header fo-flx-center ">
                   <h4>Quote Detail View </h4>
-                  <div class="button-wrapper mt-3 fo-flx-right align-center">
+                  <div class="button-wrapper my-2 fo-flx-right align-center">
                   <div class="fo-tooltip" data-bs-toggle="tooltip" title="Lorem Ipsum has been the
 industry's standard">
                     <h6 class="text-green">Approved <span><i class="bi bi-info-circle-fill"></i></span></h6>
                   </div>
-                      <button type="button" class="btn btn-secondary mr1">Create</button>
-                      <button type="button" class="btn btn-secondary-light">Edit</button>
+                      <button type="button" class="btn btn-secondary mr1 btn-sm">Create</button>
+                      <button type="button" class="btn btn-secondary-light btn-sm">Edit</button>
                     </div>
                   
                   
@@ -756,9 +762,9 @@ industry's standard">
                     </div>
                 </div>
                 <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
-                    <button type="button" class="btn btn-secondary-light">Save</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                 </div>
                 </div>
               </div>
