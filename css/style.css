@@ -941,7 +941,8 @@ button.accordion-button {
   display: block;
   position: absolute;
   top: 0;
-  right: 90px;
+  right: 0;
+  left: 0;
 }
 button.accordion-button.collapsed {
   margin-bottom: 10px;
