@@ -510,7 +510,6 @@ ul.dropdown-menu.show li:last-child {
   font-weight: 700;
   color: #4A4A4A;
   margin: 0;
-  margin-top: 10px;
 }
 
 .db-top-wrapper .left .content h6 span img.min-icon {
@@ -838,16 +837,16 @@ button.btn.btn-secondary.bg-drk-blue span img {
   margin-top: -3px;
 }
 .crm-cd-header{
-  padding: 16px 28px;
+  padding: 8px 28px;
 }
 .fo-padding{
   padding: 28px;
 }
 .crm-cd-header h4 {
-  font-size: 18px;
-  color: #4B4B5A;
-  font-weight: 400;
-  margin-bottom: 0;
+  font-size: 16px;
+    color: #4B4B5A;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 .crm-cd-header h6 {
   margin-bottom: 0;
@@ -910,11 +909,11 @@ button.accordion-button {
   margin-bottom: 20px;
 }
 .profile-upload img {
-  width: 150px;
+  width: 120px;
 }
 .settings {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background: #0000005c;
   border-radius: 50%;
   margin: auto;
@@ -922,6 +921,7 @@ button.accordion-button {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .profile-upload {
   position: relative;
@@ -934,8 +934,10 @@ button.accordion-button {
   display: block;
   position: absolute;
   top: 0;
-  right: 90px;
+  right:0;
+  left: 0;
 }
+
 button.accordion-button.collapsed {
   margin-bottom: 10px;
 }

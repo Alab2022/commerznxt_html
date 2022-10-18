@@ -34,7 +34,7 @@
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
     <div class="row">
       <div class="col-md-4">
-        <div class="card">
+        <div class="card sticky">
           <div class="card-body">
             <!-- Search Contacts -->
             <div class="d-flex">
@@ -42,7 +42,7 @@
                 <i class="bi bi-search"></i>
                 <input type="text" class="form-control" placeholder="Search" />
               </div>
-              <button type="button" class="btn btn-primary ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add</button>
+              <button type="button" class="btn btn-primary ms-2 d-flex align-items-center plus" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus"></i> Add</button>
             </div>
             <div class="name_filter">A</div>
             <ul class="cont-list">
@@ -142,7 +142,7 @@
       </div>
       <div class="col-md-8">
         <div class="card cd-custom-pd crm">
-          <div class="card-body">
+          <div class="card-body card-pad-avatar ">
             <button type="button" class="btn btn-secondary bg-drk-blue"> <span><img src="img/edit.svg" alt=""></span> Edit</button>
             <div class="db-top-wrapper">
               <div class="left d-flex">
@@ -217,7 +217,13 @@
           <!-- All Activity Content -->
           <div class="tab-pane fade show active" id="activity" role="tabpanel" aria-labelledby="activity-tab">
             <div class="row">
-              <div class="card">
+              <div class="card remove-padding">
+              <div class="crm-cd-header fo-flx-center bo-bottom">
+                  <h4>All Activities</h4>
+                  <div>
+                    <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
+                  </div>
+                </div>
                 <div class="card-body">
 
                   <div class="page-content page-container" id="page-content">
@@ -225,43 +231,93 @@
                       <div class="row">
 
                         <div class="col-lg-12">
-                          <p>Basic Timeline</p>
-                          <div class="timeline p-4 mb-4">
+                           <div class="timeline mb-4">
                             <div class="tl-item">
                               <div class="tl-dot b-email"><i class="bi bi-envelope-open-fill"></i></div>
                               <div class="tl-content">
-                                <div class="">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
-                                <div class="tl-date text-muted mt-1">13 june 18</div>
+                                <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
+                                <div class="tl-date text-muted mt-1">
+                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <h5>SUBJECT: BETA CRM LTD</h5>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                </div>
                               </div>
                             </div>
                             <div class="tl-item">
-                              <div class="tl-dot b-primary"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-dot b-quote"><i class="bi bi-file-earmark-arrow-up-fill"></i></div>
                               <div class="tl-content">
-                                <div class="">Do you know how Google search works.</div>
-                                <div class="tl-date text-muted mt-1">45 minutes ago</div>
+                                <div class="tl-title">Quotation <a href="#">#QTE0097</a> created on <b>16.07.2022 07:20:09 AM </b> by <b>Adam</b> Requested for Approval</div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">View or Download as PDF <i class="bi bi-file-earmark-pdf-fill pdf"></i></div>
                               </div>
                             </div>
                             <div class="tl-item">
-                              <div class="tl-dot b-danger"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-dot b-quote"><i class="bi bi-file-earmark-check-fill"></i></div>
                               <div class="tl-content">
-                                <div class="">Thanks to <a href="#" data-abc="true">@apple</a>, for iphone 7</div>
-                                <div class="tl-date text-muted mt-1">1 day ago</div>
+                                <div class="tl-title">Quotation <a href="#">#QTE0097</a> Approved by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                
                               </div>
                             </div>
                             <div class="tl-item">
-                              <div class="tl-dot b-danger"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-dot b-sms"><i class="bi bi-check-square-fill"></i></div>
                               <div class="tl-content">
-                                <div class="">Order placed <a href="#" data-abc="true">@eBay</a> you will get your products</div>
-                                <div class="tl-date text-muted mt-1">1 Week ago</div>
+                                <div class="tl-title">SMS has been sent by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>Hi John, Hope you are doing good! we are waiting for your reply for the latest quotation</p>
+                                </div>
                               </div>
                             </div>
                             <div class="tl-item">
-                              <div class="tl-dot b-warning"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-dot b-sms"><i class="bi bi-arrow-right-square-fill"></i></div>
                               <div class="tl-content">
-                                <div class="">Learn how to use <a href="#" data-abc="true">Google Analytics</a> to discover vital information about your readers.</div>
-                                <div class="tl-date text-muted mt-1">3 days ago</div>
+                                <div class="tl-title">SMS has been received by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>Hi Adam, Currently I'm not  available for a week, Kindly call me next week on 26/10/2022</p>
+                                </div>
                               </div>
                             </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-comment"><i class="bi bi-chat-left-text-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Comment added by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-payment"><i class="bi bi-currency-euro"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">1st installment payment has been received for invoice <a href="#"> #INV0097 </a>  <b>€ 10,000</b> Submitted by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                              </div>
+                            </div>
+                        
                           </div>
                         </div>
 
@@ -281,7 +337,7 @@
             <div class="row">
               <div class="card remove-padding">
                 <div class="crm-cd-header fo-flx-center bo-bottom">
-                  <h4>All Activities</h4>
+                  <h4>Comments</h4>
                   <div>
                     <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
                   </div>
@@ -293,10 +349,66 @@
 
                     <div class="button-wrapper mt-3 fo-flx-right align-center">
                       <h6>attachments if any <span><i class="bi bi-paperclip"></i></span></h6>
-                      <button type="button" class="btn btn-secondary mr1">Cancel</button>
-                      <button type="button" class="btn btn-secondary-light">Save</button>
+                      <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                      <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                     </div>
                   </div>
+                  <!-- Comments Activity Content -->
+                <div class="tab-pane fade show active" id="activity" role="tabpanel" aria-labelledby="activity-tab">
+                  <div class="page-content page-container" id="page-content">
+                    <div class="padding">
+                      <div class="row">
+
+                        <div class="col-lg-12">
+                           <div class="timeline mb-4">
+                            
+                            
+                            <div class="tl-item">
+                              <div class="tl-dot b-comment"><i class="bi bi-chat-left-text-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Comment added by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-comment"><i class="bi bi-chat-left-text-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Comment added by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-comment"><i class="bi bi-chat-left-text-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Comment added by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
+                                </div>
+                              </div>
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -305,9 +417,120 @@
           <!-- Email Content -->
           <div class="tab-pane fade show " id="email" role="tabpanel" aria-labelledby="email-tab">
             <div class="row">
-              <div class="card">
+              <div class="card remove-padding">
+              <div class="crm-cd-header fo-flx-center bo-bottom">
+                  <h4>Emails</h4>
+                  <div>
+                    <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
+                  </div>
+                </div>
                 <div class="card-body">
-                  email
+                  <p class="ps-3">Today</p>
+                  <!-- Email Activity Content -->
+                <div class="tab-pane fade show active" id="activity" role="tabpanel" aria-labelledby="activity-tab">
+                  <div class="page-content page-container" id="page-content">
+                    <div class="padding">
+                      <div class="row">
+
+                        <div class="col-lg-12">
+                           <div class="timeline mb-4">
+                            
+                            
+                           <div class="tl-item">
+                              <div class="tl-dot b-email"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
+                                <div class="tl-date text-muted mt-1">
+                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <h5>SUBJECT: BETA CRM LTD</h5>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-email"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
+                                <div class="tl-date text-muted mt-1">
+                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <h5>SUBJECT: BETA CRM LTD</h5>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-email"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
+                                <div class="tl-date text-muted mt-1">
+                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <h5>SUBJECT: BETA CRM LTD</h5>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                </div>
+                              </div>
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="ps-3">Yesterday</p>
+                  <!-- Email Activity Content -->
+                <div class="tab-pane fade show active" id="activity" role="tabpanel" aria-labelledby="activity-tab">
+                  <div class="page-content page-container" id="page-content">
+                    <div class="padding">
+                      <div class="row">
+
+                        <div class="col-lg-12">
+                           <div class="timeline mb-4">
+                            
+                            
+                           <div class="tl-item">
+                              <div class="tl-dot b-email"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
+                                <div class="tl-date text-muted mt-1">
+                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <h5>SUBJECT: BETA CRM LTD</h5>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-email"><i class="bi bi-envelope-open-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
+                                <div class="tl-date text-muted mt-1">
+                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <h5>SUBJECT: BETA CRM LTD</h5>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                </div>
+                              </div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
