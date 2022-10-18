@@ -29,12 +29,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.fo-flx-center {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .fo-flx-top {
   display: flex;
   justify-content: space-between;
@@ -191,27 +185,27 @@ tbody tr td {
   padding: 20px !important;
 }
 
-.table-footer.fo-flx-top.mt-5 td {
+.table-footer.fo-flx-top td {
   padding: 10px !important;
   padding-left: 0 !important;
   color: #fff;
 }
 
-.table-footer.fo-flx-top.mt-5 .right {
+.table-footer.fo-flx-top .right {
   width: 35%;
 }
 
-.table-footer.fo-flx-top.mt-5 .bg-tb-bottom {
+.table-footer.fo-flx-top .bg-tb-bottom {
   background: #97CDCD;
   padding: 20px;
   border-radius: 5px;
 }
 
-.table-footer.fo-flx-top.mt-5 .table {
+.table-footer.fo-flx-top .table {
   margin-bottom: 0 !important;
 }
 
-.table-footer.fo-flx-top.mt-5 h6 {
+.table-footer.fo-flx-top h6 {
   line-height: 25px;
 }
 
@@ -517,7 +511,6 @@ ul.dropdown-menu.show li:last-child {
   font-weight: 700;
   color: #4A4A4A;
   margin: 0;
-  margin-top: 10px;
 }
 
 .db-top-wrapper .left .content h6 span img.min-icon {
@@ -845,16 +838,16 @@ button.btn.btn-secondary.bg-drk-blue span img {
   margin-top: -3px;
 }
 .crm-cd-header{
-  padding: 16px 28px;
+  padding: 15px 28px;
 }
 .fo-padding{
   padding: 28px;
 }
 .crm-cd-header h4 {
-  font-size: 18px;
-  color: #4B4B5A;
-  font-weight: 400;
-  margin-bottom: 0;
+  font-size: 16px;
+    color: #4B4B5A;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 .crm-cd-header h6 {
   margin-bottom: 0;
@@ -917,11 +910,11 @@ button.accordion-button {
   margin-bottom: 20px;
 }
 .profile-upload img {
-  width: 150px;
+  width: 120px;
 }
 .settings {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   background: #0000005c;
   border-radius: 50%;
   margin: auto;
@@ -929,6 +922,7 @@ button.accordion-button {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .profile-upload {
   position: relative;
@@ -941,9 +935,10 @@ button.accordion-button {
   display: block;
   position: absolute;
   top: 0;
-  right: 0;
+  right:0;
   left: 0;
 }
+
 button.accordion-button.collapsed {
   margin-bottom: 10px;
 }
@@ -951,9 +946,18 @@ button.accordion-button.collapsed {
   border: 1.5px solid #cbd5e1 ;
   border-radius: 5px;
   width: 100%;
+  padding: 8px;
   height: 80px;
 }
 .accordion-item button.btn.btn-secondary.dropdown-toggle {
+  width: 100%;
+  text-align: left;
+  background: none;
+  margin-right: 10px;
+  color: #353434;
+  border: 1px solid #cbd5e1;
+}
+.crm-cd-header .form-group button.btn.btn-secondary.dropdown-toggle{
   width: 100%;
   text-align: left;
   background: none;
@@ -1050,6 +1054,9 @@ border: 1px solid #F98F45;
 border-radius: 5px;
 color: #F98F45;
 }
+.text-primary{
+  color: #F98F45 !important;
+}
 .bo-success{
   border: 1px solid #23BC70;
   border-radius: 5px;
@@ -1065,5 +1072,31 @@ color: #F98F45;
   border-radius: 5px;
   color: #97CDCD;
 }
-
+.crm-cd-header .form-group button.btn.btn-secondary.dropdown-toggle{
+  width: 100%;
+  text-align: left;
+  background: none;
+  margin-right: 10px;
+  color: #9E9E9E;
+  border: 1px solid #cbd5e1;
+}
+ul.pagination.justify-content-end li.page-item {
+  margin-right: 10px;
+}
+ul.pagination.justify-content-end li.page-item:last-child {
+  margin-right: 0;
+}
+a.page-link {
+  border: 1px solid #E3E3E3;
+  border-radius: 5px;
+}
+a.page-link {
+  color: #A4A4A4;
+  font-size: 14px;
+}
+.active>.page-link, .page-link.active{
+  background-color: #63719C;
+  border: 0;
+}
 /* CRM CSS ENDS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
