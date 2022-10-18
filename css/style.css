@@ -128,6 +128,7 @@ align-items: center;
 .mr5{
     margin-right: 50px;
 }
+/* Quotespage css starts here /////////////////////////////////////////////////////////////////////// */
 
 h6.st-wi {
   width: 110px;
@@ -164,7 +165,7 @@ h6.dark {
 }
 
 .address-wrapper.fo-flx-top h6 {
-  line-height: 25px;
+  line-height: 20px;
   font-size: 14px;
 }
 
@@ -180,7 +181,7 @@ thead tr {
 
 thead tr th {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 20px !important;
 }
 
@@ -203,7 +204,7 @@ tbody tr td {
 .table-footer.fo-flx-top.mt-5 .bg-tb-bottom {
   background: #97CDCD;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .table-footer.fo-flx-top.mt-5 .table {
@@ -224,14 +225,16 @@ h5 {
 }
 
 .alert p {
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #565656;
   text-align: center;
   margin: 20px 0;
 }
 
 .alert {
   margin-bottom: 0;
+  padding: 0;
 }
 
 /* button {
@@ -241,6 +244,7 @@ h5 {
 } */
 .btn.btn-secondary {
   background: #698473;
+  padding: 5px 20px;
 }
 
 .btn.btn-secondary-light {
@@ -255,6 +259,9 @@ h5 {
 .bg-white{
     background-color: #fff;
 }
+
+/* Quotespage css ends here /////////////////////////////////////////////////////////////////////// */
+
 
 /* Login pages css starts here */
 .image-wrapper {
@@ -703,8 +710,8 @@ h3 {
     font-weight: 600;
 }
 .text-green{
-    font-size: 14px;
-    color: #58CE15;
+    font-size: 14px !important;
+    color: #58CE15 !important;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -970,4 +977,94 @@ h5#offcanvasRightLabel {
   font-size: 20px !important;
   color: #798692 !important;
 }
+.brand-wrapper .casualities h1 {
+  font-size: 34px;
+  color: #4E4E4E;
+}
+.brand-wrapper .casualities .details h6{
+  color: #4E4E4E;
+}
+.address-wrapper h5 {
+  font-weight: 700;
+  color: #353434;
+}
+.left .content-1 h5, .left .content-2 h5 {
+  font-weight: 700;
+  color: #353434;
+}
+thead tr th:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+thead tr th:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+.crm-cd-header h4 span {
+  background: #eff2f6;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7481A7;
+  margin-left: 10px;
+}
+.custom-list {
+  flex-direction: row;
+  align-items: center;
+  width: 32%;
+  padding: 15px;
+  justify-content: space-between;
+  border: 1px solid #E8E8E8 !important;
+  border-radius: 5px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+}
+.list-view p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.list-view h1.big-total {
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+.quote-message {
+  padding: 5px;
+    width: 59px;
+    justify-content: center;
+    line-height: 13px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.quote-message p{
+  font-size: 11px;
+  font-weight: 500;
+}
+.list-view {
+  flex-wrap: wrap;
+}
+.bo-primary{
+border: 1px solid #F98F45;
+border-radius: 5px;
+color: #F98F45;
+}
+.bo-success{
+  border: 1px solid #23BC70;
+  border-radius: 5px;
+  color: #23BC70;
+}
+.bo-hold{
+  border: 1px solid #FCD331 !important;
+  border-radius: 5px;
+  color: #FCD331;
+}
+.bo-sent{
+  border: 1px solid #97CDCD;
+  border-radius: 5px;
+  color: #97CDCD;
+}
+
 /* CRM CSS ENDS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
