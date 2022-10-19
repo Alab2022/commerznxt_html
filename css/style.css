@@ -146,6 +146,7 @@ h6.dark {
 
 .brand-wrapper.fo-flx-bottom .right {
   text-align: right;
+  position: relative;
 }
 
 .divider {
@@ -1117,5 +1118,144 @@ a.page-link {
   background-color: #63719C;
   border: 0;
 }
+.inv{
+  display: block;
+}
+.inv .form-check input#flexCheckDefault {
+  margin-left: 0;
+  font-size: 30px;
+  margin-top: 0;
+}
+.cl-b{
+  font-size: 30px !important;
+  color: #3E3E3E;
+  font-weight: 500 !important;
+  margin-bottom: 0;
+}
+.inv .quote-message {
+  width: 90px;
+  line-height: 15px;
+  height: 40px;
+}
+.form-check-input:checked{
+  background-color:#F98F45 ;
+  border-color: #F98F45;
+}
+.form-check-input:focus{
+  box-shadow: none;
+}
+.inv-detail-fl-right {
+  position: absolute;
+  right: 0;
+  top: -60px;
+}
+.inv-detail-fl-right h6 {
+  color: #4E4E4E;
+}
+
+/* Mail template css starts here /////////////////////////////////////////////////////////////////////////////*/
+.mail-cm {
+  position: absolute;
+  right: 27px;
+}
+.mail-header {
+  border: 1px solid #E7EDF2;
+  border-radius: 3px;
+  background: #F8F8F8;
+}
+.mail-header h6{
+  font-size: 16px;
+  color: #798692;
+  margin-bottom: 0;
+}
+.mail-cm-pad{
+  padding: 15px;
+}
+.mail h6{
+  margin-bottom: 0;
+}.mail p{
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #798692;
+  font-weight: 400;
+}
+.mail-template {
+  border: 1px solid #E7EDF2;
+  border-radius: 5px;
+}
+.fl-actions {
+  position: absolute;
+  right: 42px;
+}
+.capsules {
+  border: 1px solid #E3E3E3;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 5px 13px;
+}
+.fl-actions a{
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #798692;
+  font-weight: 400;
+}
+.mail-body-input textarea {
+  width: 100%;
+  max-height: 200px;
+  border: none;
+  height: 100%;
+  outline: none;
+  min-height: 200px;
+  overflow: auto;
+  padding: 10px;
+  font-size: 14px;
+  color: #798692;
+  font-weight: 400;
+}
+.set i {
+  font-size: 20px;
+  cursor: pointer;
+  color: #89949F;
+}
+.remove-bg {
+    background: none !important;
+    color: #3E5CBC;
+    font-size: 14px;
+    position: relative;
+    padding:0 10px !important;
+    border-right: 1px solid #89949F !important;
+    border-radius: 0 !important;
+    margin-right: 10px;
+}
+.remove-bg:hover{
+  color: #3E5CBC !important;
+}
+.fl-rht {
+  position: unset !important;
+  font-size: 10px !important;
+  color: #3E5CBC !important;
+}
+.set {
+  padding: 5px;
+  border: 1px solid #E7EDF2;
+  border-radius: 5px;
+  width: min-content;
+  margin-right: 10px;
+}
+.mail-options button.btn.btn-secondary.mr1.btn-sm {
+  margin-right: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.mail-options{
+  justify-content: right;
+}
+.capsules i {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+  color: #798692 !important;
+}
+/* Mail template css ends here /////////////////////////////////////////////////////////////////////////////*/
+
 /* CRM CSS ENDS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
 
