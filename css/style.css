@@ -130,7 +130,7 @@ h6.st-wi {
 }
 h6{
     font-weight: 600 !important;
-    color: #797979;
+    color: #949494;
     font-size: 14px !important;
 }
 
@@ -205,8 +205,8 @@ tbody tr td {
   margin-bottom: 0 !important;
 }
 
-.table-footer.fo-flx-top h6 {
-  line-height: 25px;
+.table-footer.fo-flx-top.mt-5 h6 {
+  line-height: 20px;
 }
 
 h5 {
@@ -292,11 +292,11 @@ h5 {
   height: 100%;
 }
 
-input {
+/* input {
   border: 1.5px solid #cbd5e1 !important;
   font-size: 14px !important;
   border-radius: 5px;
-}
+} */
 
 .form-wrapper.text-center h6 {
   width: 85%;
@@ -309,7 +309,6 @@ input {
 
 button.btn.btn-primary {
   background: #F15A29;
-  font-size: 14px;
   font-weight: 800;
   border: 0;
 }
@@ -474,23 +473,23 @@ a.nav-link:hover {
 ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle:hover{
     border: none;
 }
-ul.dropdown-menu.show {
+/* ul.dropdown-menu.show {
     border-radius: 0;
     border: none;
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 ul.nav.navbar-nav.navbar-right ul.dropdown-menu.show {
-    left: -110px !important;
+    left: -110px !important; 
 }
 ul.dropdown-menu.show li {
-    border-bottom: 1px solid #ddd;
-    font-size: 14px;
+    border-bottom: 1px solid #ddd; 
+     font-size: 14px; 
     color: #505050;
 }
 ul.dropdown-menu.show li:last-child {
     border-bottom: none;
-}
+} */
 
 .remove-margin{
     margin: 0 !important;
@@ -500,7 +499,7 @@ ul.dropdown-menu.show li:last-child {
 }
 
 .db-top-wrapper {
-  padding: 25px 0 10px;
+  padding: 20px 0 10px;
 }
 
 .db-top-wrapper .left .profile-sec img {
@@ -547,7 +546,7 @@ ul.dropdown-menu {
   padding: 0 12px;
 }
 
-.dropdown-menu > li > a {
+.nav-item.inner .dropdown-menu > li > a {
   padding: 10px 0;
 }
 .bo-bottom{
@@ -777,7 +776,7 @@ a.faded-button {
 
 /* CRM CSS STARTS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .casualities{
-  margin-top: 15px;
+  margin-top: 20px; 
 }
 .cd-custom-pd{
   padding: 0px;
@@ -817,7 +816,7 @@ a.faded-button {
   color: #9E9E9E;
 }
 .crm .db-top-wrapper h4{
-font-size: 15px !important;
+font-size: 14px !important;
 font-weight: 600;
 color: #585858;
 }
@@ -885,7 +884,7 @@ button.btn.btn-secondary.bg-drk-blue span img {
   width: 48.5%;
 }
 .accordion-item .form-group{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   position: relative;
 }
 .accordion-body .form-group label{
@@ -956,8 +955,10 @@ button.accordion-button.collapsed {
   text-align: left;
   background: none;
   margin-right: 10px;
-  color: #353434;
-  border: 1px solid #cbd5e1;
+  color: #727272;
+    border: 1px solid #cbd5e1;
+    font-size: 0.9rem;
+    padding-left: 8px;
 }
 .crm-cd-header .form-group button.btn.btn-secondary.dropdown-toggle{
   width: 100%;
@@ -1025,19 +1026,21 @@ thead tr th:last-child{
   justify-content: space-between;
   border: 1px solid #E8E8E8 !important;
   border-radius: 5px !important;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important; */
 }
 .list-view p {
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 13px;
+  color: #a0a0a0;
 }
 .list-view h1.big-total {
   font-size: 27px;
   margin-bottom: 5px;
+  font-weight: 800;
 }
 .quote-message {
   padding: 5px;
-    width: 59px;
+    width: 75px;
     justify-content: center;
     line-height: 13px;
     height: 54px;
@@ -1046,8 +1049,8 @@ thead tr th:last-child{
     text-align: center;
 }
 .quote-message p{
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
 }
 .list-view {
   flex-wrap: wrap;
@@ -1057,6 +1060,9 @@ border: 1px solid #F98F45;
 border-radius: 5px;
 color: #F98F45;
 }
+.bo-primary p{
+  color: #F98F45;
+  }
 .text-primary{
   color: #F98F45 !important;
 }
@@ -1065,9 +1071,15 @@ color: #F98F45;
   border-radius: 5px;
   color: #23BC70;
 }
+.bo-success p{
+  color: #23BC70;
+}
 .bo-hold{
   border: 1px solid #FCD331 !important;
   border-radius: 5px;
+  color: #FCD331;
+}
+.bo-hold p{
   color: #FCD331;
 }
 .bo-sent{
@@ -1075,6 +1087,10 @@ color: #F98F45;
   border-radius: 5px;
   color: #97CDCD;
 }
+.bo-sent p{
+  color: #97CDCD;
+}
+
 .crm-cd-header .form-group button.btn.btn-secondary.dropdown-toggle{
   width: 100%;
   text-align: left;

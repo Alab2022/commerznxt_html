@@ -15,7 +15,7 @@
 }
 
 body {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .shadow-cs {
@@ -31,7 +31,7 @@ body {
   text-align: left !important;
   font-size: 13px;
   font-weight: 500;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .error-msg-tc {
@@ -91,6 +91,7 @@ body.inner {
   color: var(--primary-text);
   background: #fdfdfd;
   font-weight: 600;
+  font-size: 15px;
 }
 
 .nav-tabs.page-nav .nav-item {
@@ -224,6 +225,7 @@ ul.cont-list li a i {
   display: flex;
   align-items: center;
   padding: 4px 15px;
+  font-weight: 600;
 }
 .nav-pills.custom .nav-link:hover {
   background: #ced6df;
@@ -368,13 +370,12 @@ tl-item.active .tl-dot:before {
 }
 
 .tl-date {
-  font-size: .9em;
   margin-top: 2px;
   margin-bottom: 10px;
 }
 .tl-date i{
   margin-right:5px;
-  color: #304850;
+  color: #94a3b8;
 }
 .tl-date span{
   margin-right:10px;
@@ -490,6 +491,10 @@ i.pdf{
     display: inline-block;
     
 }
+.tl-content-inner p{
+  font-size: 13px;
+    
+}
 .tl-content-inner h5{
   font-weight: 600;
 }
@@ -504,8 +509,6 @@ i.pdf{
 
 .sticky {
   flex:1;
-  
-  margin:10px;
   position:sticky;
   top:20px;
 }
@@ -530,12 +533,16 @@ i.pdf{
   font-weight: 600;
 }
 .accordion-body {
-  padding: 10px 10px;
+  padding: 20px 10px;
 }
 .accordion-button::after{
   width: 15px;
-  height: 10px;
-  background-size: 80%;
+    height: 10px;
+    background-size: 52%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 13px;
+    background-position: center;
 }
 .card-pad-avatar {
   padding: 25px 23px;
@@ -572,21 +579,21 @@ button.btn.btn-primary.plus i{
     margin-top: -3px;
 }
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ 
+	.navbar .nav-item.inner .dropdown-menu{ display: none; }
+	.navbar .nav-item.inner:hover .dropdown-menu{ 
     display: block; 
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-	.navbar .nav-item .dropdown-menu{ margin-top:-3px; }
+	.navbar .nav-item.inner .dropdown-menu{ margin-top:-3px; }
+  
 }	
-a.nav-link {
+.nav-item.inner a.nav-link {
   border-bottom: 3px solid #ffffff;
  
 }
 .dropdown-menu > li > a {
-  padding: 10px 0;
+  padding: 8px 0;
   border-bottom: 1px solid #f1f1f1;
 }
 .dropdown-menu > li:last-child > a {
@@ -599,4 +606,37 @@ a.nav-link {
   border-bottom: 1px solid #f1f1f1;
   border-left: 1px solid #f1f1f1;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+.navbar .nav-item .dropdown-menu.last{ 
+  right: 0;
+  margin-top: 6px;
+  left: auto;
+}
+h6 strong{
+  color: #515151;
+
+}
+.dropdown-item i {
+  font-size: 22px;
+  margin-right: 10px;
+  color: #64748b;
+}
+.dropdown-menu > li > a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.form-control-lg{
+  height: 50px;
+}
+.offcanvas-body {
+  padding-top: 5px;
+}
+.offcanvas-footer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.dropdown-item:focus i, .dropdown-item:hover i{
+  color: var(--primary);
 }
