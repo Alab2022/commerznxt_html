@@ -600,9 +600,15 @@
           <!-- Quotes Content -->
           <div class="tab-pane fade show " id="quotes" role="tabpanel" aria-labelledby="quotes-tab">
             <div class="row">
-              <div class="card remove-padding">
-                <div class="crm-cd-header fo-flx-center bo-bottom">
-                  <h4>Quotes <span>06</span></h4>
+            <div class="card remove-padding">
+              <div class="crm-cd-header fo-flx-center bo-bottom my-3">
+                  <h4>Quotes </h4>
+                  <div>
+                    <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
+                  </div>
+                </div>
+                <div class="crm-cd-header fo-flx-center sub">
+                  <h4>Total Quotes Created<span>06</span></h4>
                   <div class="d-flex">
                     <div class="inner-addon right-addon search_md">
                       <i class="bi bi-search"></i>
@@ -1396,6 +1402,311 @@
             </div>
           </div>
 
+          <!-- Invoice Content -->
+          <div class="tab-pane fade show " id="invoice" role="tabpanel" aria-labelledby="invoice-tab">
+            <div class="row">
+              <div class="card remove-padding">
+                <div class="crm-cd-header fo-flx-center bo-bottom">
+                  <h4>SMS</h4>
+                  <div>
+                    <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
+                  </div>
+                </div>
+                <div class="card-body fo-padding">
+
+                  <div class="list-view fo-flx-top">
+                    <div class="card custom-list inv">
+                      <div class="fo-flx-js-sb mb-1">
+                        <h1 class="big-total cl-b"> €4,275 </h1>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+
+                      </div>
+                      <div class="divider remove-padding"></div>
+                      <div class="fo-flx-js-sb mt-2">
+                        <p style="color: #3E3E3E;"><strong>Order Id:</strong> <br> CNXT008</p>
+                        <div class="quote-message bo-primary">
+                          <p>Waiting for Approval</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="card custom-list inv">
+                      <div class="fo-flx-js-sb mb-1">
+                        <h1 class="big-total cl-b"> €4,275 </h1>
+                        <!-- <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div> -->
+
+                      </div>
+                      <div class="divider remove-padding"></div>
+                      <div class="fo-flx-js-sb mt-2">
+                        <p style="color: #3E3E3E;"><strong>Order Id:</strong> <br> CNXT008</p>
+                        <img src="img/pdf.svg" alt="">
+                      </div>
+
+                    </div>
+                    <div class="card custom-list inv">
+                      <div class="fo-flx-js-sb mb-1">
+                        <h1 class="big-total cl-b"> €4,275 </h1>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+
+                      </div>
+                      <div class="divider remove-padding"></div>
+                      <div class="fo-flx-js-sb mt-2">
+                        <p style="color: #3E3E3E;"><strong>Order Id:</strong> <br> CNXT008</p>
+                        <div class="quote-message bo-hold">
+                          <p>Hold</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="card custom-list inv">
+                      <div class="fo-flx-js-sb mb-1">
+                        <h1 class="big-total cl-b"> €4,275 </h1>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+
+                      </div>
+                      <div class="divider remove-padding"></div>
+                      <div class="fo-flx-js-sb mt-2">
+                        <p style="color: #3E3E3E;"><strong>Order Id:</strong> <br> CNXT008</p>
+                        <div class="quote-message bo-success">
+                          <p>Approved</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="card custom-list inv">
+                      <div class="fo-flx-js-sb mb-1">
+                        <h1 class="big-total cl-b"> €4,275 </h1>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+
+                      </div>
+                      <div class="divider remove-padding"></div>
+                      <div class="fo-flx-js-sb mt-2">
+                        <p style="color: #3E3E3E;"><strong>Order Id:</strong> <br> CNXT008</p>
+                        <div class="quote-message bo-primary">
+                          <p>Waiting for Approval</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="card custom-list inv">
+                      <div class="fo-flx-js-sb mb-1">
+                        <h1 class="big-total cl-b"> €4,275 </h1>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+
+                      </div>
+                      <div class="divider remove-padding"></div>
+                      <div class="fo-flx-js-sb mt-2">
+                        <p style="color: #3E3E3E;"><strong>Order Id:</strong> <br> CNXT008</p>
+                        <div class="quote-message bo-primary">
+                          <p>Waiting for Approval</p>
+                        </div>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="fo-flx-center">
+                    <h6>Showing 50 of 200</h6>
+                    <nav aria-label="Page navigation example">
+
+                    <div class="button-wrapper mt-3 fo-flx-right align-center">
+
+                      <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                      <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card remove-padding">
+                <div class="crm-cd-header fo-flx-center ">
+                  <h4>Invoice Detail View </h4>
+                  <div class="button-wrapper mt-3 fo-flx-right align-center">
+
+
+                    <button type="button" class="btn btn-secondary-light">Edit</button>
+                  </div>
+
+
+                </div>
+                <div class="divider w-100 remove-padding"></div>
+                <div class="card-body fo-padding">
+
+                  <div class="brand-wrapper fo-flx-bottom">
+                    <div class="left fo-flx-top">
+                      <div class="img-sec mr3">
+                        <img src="img/br1.png" alt="">
+                      </div>
+                      <div class="casualities">
+                        <h1 class="mb-3">Blue Bridge</h1>
+                        <div class="details fo-flx">
+                          <h6 class="st-wi">INVOICE NO </h6>
+                          <h6>#009-01</h6>
+                        </div>
+                        <div class="details fo-flx">
+                          <h6 class="st-wi">INVOICE DATE</h6>
+                          <h6>Jul 19,2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right">
+                      <div class="details inv-detail-fl-right">
+                        <div class="fo-flx-right">
+                          <h6 class="st-wi mr2">ORDER NO </h6>
+                          <h6>#009-01</h6>
+                        </div>
+                      </div>
+                      <p>TOTAL</p>
+                      <h1 class="big-total"> €4,275 </h1>
+                    </div>
+                  </div>
+                  <div class="divider w-100 mb-3"></div>
+                  <div class="address-wrapper fo-flx-top mb-4">
+                    <div class="left">
+                      <p>Supplier Address</p>
+                      <h5>Richard Welsh</h5>
+                      <h6>83 Park Row, Egbury, United Kingdom <br>
+                        amelia@abccompany.com <br>
+                        +44 078 7102 4793</h6>
+                    </div>
+                    <div class="right">
+                      <p>Delivery Address</p>
+                      <h5>Amelia</h5>
+                      <h6>83 Park Row, Egbury, United Kingdom <br>
+                        amelia@abccompany.com <br>
+                        +44 078 7102 4793</h6>
+                    </div>
+                  </div>
+                  <div class="table-wrapper">
+                    <table id="tb-border-radius" class="table">
+                      <thead>
+                        <tr>
+                          <th class="fo-bo-topl-bottoml">PRODUCT NAME</th>
+                          <th>SKU ID</th>
+                          <th>QTY</th>
+                          <th>PRICE/QTY</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td> <strong> PowerHouse 100 mmAngle Grinder 670W
+                              PHAG100 with 6 <strong> </td>
+                          <td>W3089GTA</td>
+                          <td>30</td>
+                          <td>1500</td>
+                        </tr>
+                        <tr>
+                          <td> <strong> PowerHouse 100 mmAngle Grinder 670W
+                              PHAG100 with 6 <strong> </td>
+                          <td>W3089GTA</td>
+                          <td>30</td>
+                          <td>1500</td>
+                        </tr>
+                        <tr>
+                          <td> <strong> PowerHouse 100 mmAngle Grinder 670W
+                              PHAG100 with 6 <strong> </td>
+                          <td>W3089GTA</td>
+                          <td>30</td>
+                          <td>1500</td>
+                        </tr>
+                        <tr>
+                          <td> <strong> PowerHouse 100 mmAngle Grinder 670W
+                              PHAG100 with 6 <strong> </td>
+                          <td>W3089GTA</td>
+                          <td>30</td>
+                          <td>1500</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="table-footer fo-flx-top mt-4">
+                      <div class="left">
+                        <div class="content-1 mb-3">
+                          <h5 class="mb-2">Payment Method</h5>
+                          <h6> <strong>Paypal:</strong> payment@company.com <br>
+                            <strong> Card ayment we accept:</strong> Visa, Mastercard
+                          </h6>
+                        </div>
+                        <div class="content-2">
+                          <h5 class="mb-2">Terms & Conditions</h5>
+                          <h6>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem
+                            Ipsum has been the industry's <br> standard dummy text ever since the 1500s, when an
+                            unknown</h6>
+                        </div>
+                      </div>
+                      <div class="right">
+                        <div class="bg-tb-bottom">
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <td>Sub Total</td>
+                                <td></td>
+                                <td>4500</td>
+
+                              </tr>
+                              <tr>
+                                <td>Tax(%)</td>
+                                <td>16</td>
+                                <td>1000</td>
+                              </tr>
+                              <tr>
+                                <td>Discount(5%)</td>
+                                <td>5</td>
+                                <td>500</td>
+                              </tr>
+                              <tr>
+                                <td>Advance Received</td>
+                                <td></td>
+                                <td>500</td>
+
+                              </tr>
+                              <tr>
+                                <td>Credit Period</td>
+                                <td></td>
+                                <td>30</td>
+
+                              </tr>
+                              <tr>
+                                <td class="remove-bo"><b>Total</b></td>
+                                <td class="remove-bo"></td>
+                                <td class="remove-bo"><b>4275</b></td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+
+                        </div>
+                        <div class="alert">
+                          <p>*This quotation does not required any seal or signature </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-wrapper align-right mt-3">
+                    <button type="button" class="btn btn-secondary mr1">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr1">Create Payment Paln</button>
+                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary-light">Save</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- SMS Content -->
           <div class="tab-pane fade show " id="sms" role="tabpanel" aria-labelledby="sms-tab">
             <div class="row">
@@ -1461,7 +1772,7 @@
                 <div class="form-flex fo-flx-js-sb">
                   <div class="form-group">
                     <label for="">First Name</label>
-                    <input type="text">
+                    <input type="text" class="shadow-cs">
                   </div>
                   <div class="form-group">
                     <label for="">Last Name</label>

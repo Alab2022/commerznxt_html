@@ -312,11 +312,12 @@ button.btn.btn-primary {
   background: #F15A29;
   font-weight: 800;
   border: 0;
+  font-size: 14px;
 }
 
 a.btn.btn-primary {
   background: #F15A29;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -501,6 +502,9 @@ ul.dropdown-menu.show li:last-child {
 
 .db-top-wrapper {
   padding: 20px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .db-top-wrapper .left .profile-sec img {
@@ -890,8 +894,9 @@ button.btn.btn-secondary.bg-drk-blue span img {
 }
 .accordion-body .form-group label{
   font-size: 14px;
-  font-weight: 500;
-  color: #A8A8A8;
+    font-weight: 700;
+    color: #48626c;
+    margin-bottom: 2px;
 }
 .accordion-item {
   border: none;
@@ -904,8 +909,9 @@ button.accordion-button {
 }
 .accordion-button:not(.collapsed){
   box-shadow: none !important;
-  color: #577B8A !important;
-  background: #E0EDF2;
+    color: #3d535c !important;
+    background: #E0EDF2;
+    font-weight: 800;
 }
 .profile-upload {
   text-align: center;
@@ -981,8 +987,9 @@ button.accordion-button.collapsed {
   margin-right: 12px;
 }
 h5#offcanvasRightLabel {
-  font-size: 20px !important;
+  font-size: 18px !important;
   color: #798692 !important;
+  font-weight: 800;
 }
 .brand-wrapper .casualities h1 {
   font-size: 34px;
@@ -1012,7 +1019,7 @@ thead tr th:last-child{
 }
 .crm-cd-header h4 span {
   background: #eff2f6;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   font-size: 13px;
   font-weight: 600;
@@ -1258,4 +1265,106 @@ a.page-link {
 /* Mail template css ends here /////////////////////////////////////////////////////////////////////////////*/
 
 /* CRM CSS ENDS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
-
+/* Mail template css starts here /////////////////////////////////////////////////////////////////////////////*/
+.mail-cm {
+  position: absolute;
+  right: 27px;
+}
+.mail-header {
+  border: 1px solid #E7EDF2;
+  border-radius: 3px;
+  background: #F8F8F8;
+}
+.mail-header h6{
+  font-size: 16px;
+  color: #798692;
+  margin-bottom: 0;
+}
+.mail-cm-pad{
+  padding: 10px 15px;
+}
+.mail h6{
+  margin-bottom: 0;
+}.mail p{
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #798692;
+  font-weight: 400;
+}
+.mail-template {
+  border: 1px solid #E7EDF2;
+  border-radius: 5px;
+}
+.fl-actions {
+  position: absolute;
+  right: 42px;
+}
+.capsules {
+  border: 1px solid #E3E3E3;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 5px 13px;
+}
+.fl-actions a{
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #798692;
+  font-weight: 400;
+}
+.mail-body-input textarea {
+  width: 100%;
+  max-height: 200px;
+  border: none;
+  height: 100%;
+  outline: none;
+  min-height: 200px;
+  overflow: auto;
+  padding: 10px;
+  font-size: 14px;
+  color: #798692;
+  font-weight: 400;
+}
+.set i {
+  font-size: 20px;
+  cursor: pointer;
+  color: #89949F;
+}
+.remove-bg {
+    background: none !important;
+    color: #3E5CBC;
+    font-size: 14px;
+    position: relative;
+    padding:0 10px !important;
+    border-right: 1px solid #89949F !important;
+    border-radius: 0 !important;
+    margin-right: 10px;
+}
+.remove-bg:hover{
+  color: #3E5CBC !important;
+}
+.fl-rht {
+  position: unset !important;
+  font-size: 10px !important;
+  color: #3E5CBC !important;
+}
+.set {
+  padding: 5px;
+  border: 1px solid #E7EDF2;
+  border-radius: 5px;
+  width: min-content;
+  margin-right: 10px;
+}
+.mail-options button.btn.btn-secondary.mr1.btn-sm {
+  margin-right: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.mail-options{
+  justify-content: right;
+}
+.capsules i {
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
+  color: #798692 !important;
+}
+/* Mail template css ends here /////////////////////////////////////////////////////////////////////////////*/
