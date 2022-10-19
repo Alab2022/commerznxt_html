@@ -15,7 +15,7 @@
 }
 
 body {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .shadow-cs {
@@ -224,6 +224,7 @@ ul.cont-list li a i {
   display: flex;
   align-items: center;
   padding: 4px 15px;
+  font-weight: 600;
 }
 .nav-pills.custom .nav-link:hover {
   background: #ced6df;
@@ -368,13 +369,12 @@ tl-item.active .tl-dot:before {
 }
 
 .tl-date {
-  font-size: .9em;
   margin-top: 2px;
   margin-bottom: 10px;
 }
 .tl-date i{
   margin-right:5px;
-  color: #304850;
+  color: #94a3b8;
 }
 .tl-date span{
   margin-right:10px;
@@ -490,6 +490,10 @@ i.pdf{
     display: inline-block;
     
 }
+.tl-content-inner p{
+  font-size: 13px;
+    
+}
 .tl-content-inner h5{
   font-weight: 600;
 }
@@ -504,8 +508,6 @@ i.pdf{
 
 .sticky {
   flex:1;
-  
-  margin:10px;
   position:sticky;
   top:20px;
 }
@@ -622,7 +624,18 @@ h6 strong{
 .dropdown-menu > li > a {
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 .form-control-lg{
   height: 50px;
+}
+.offcanvas-body {
+  padding-top: 5px;
+}
+.offcanvas-footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.dropdown-item:focus i, .dropdown-item:hover i{
+  color: var(--primary);
 }

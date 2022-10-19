@@ -237,8 +237,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
@@ -251,8 +251,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Quotation <a href="#">#QTE0097</a> created on <b>16.07.2022 07:20:09 AM </b> by <b>Adam</b> Requested for Approval</div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">View or Download as PDF <i class="bi bi-file-earmark-pdf-fill pdf"></i></div>
                               </div>
@@ -262,8 +262,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Quotation <a href="#">#QTE0097</a> Approved by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 
                               </div>
@@ -273,8 +273,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">SMS has been sent by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>Hi John, Hope you are doing good! we are waiting for your reply for the latest quotation</p>
@@ -286,8 +286,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">SMS has been received by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>Hi Adam, Currently I'm not  available for a week, Kindly call me next week on 26/10/2022</p>
@@ -299,8 +299,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Comment added by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
@@ -312,8 +312,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">1st installment payment has been received for invoice <a href="#"> #INV0097 </a>  <b>€ 10,000</b> Submitted by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                               </div>
                             </div>
@@ -368,8 +368,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Comment added by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
@@ -381,8 +381,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Comment added by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
@@ -394,8 +394,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Comment added by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
@@ -441,8 +441,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
@@ -455,8 +455,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
@@ -469,8 +469,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
@@ -501,8 +501,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
@@ -515,8 +515,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
