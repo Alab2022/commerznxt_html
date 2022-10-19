@@ -1009,7 +1009,7 @@
             <div class="row">
             <div class="card remove-padding">
                 <div class="crm-cd-header fo-flx-center bo-bottom">
-                  <h4>Orders List <span>06</span></h4>
+                  <h4>Invoices <span>06</span></h4>
                   <div class="d-flex align-center">
                     <h6>Show</h6>
                     <div class="form-group ms-2">
@@ -1030,7 +1030,7 @@
                       <i class="bi bi-search"></i>
                       <input type="text" class="form-control" placeholder="Search" />
                     </div>
-                    <button type="button" class="btn btn-secondary ms-2">Create</button>
+                    <button type="button" class="btn btn-secondary ms-2">Generate Invoice</button>
                   </div>
                 </div>
                 <div class="card-body fo-padding">
