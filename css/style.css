@@ -238,7 +238,7 @@ h5 {
 } */
 .btn.btn-secondary {
   background: #698473;
-  padding: 5px 20px;
+  /* padding: 5px 20px; */
 }
 
 .btn.btn-secondary-light {
@@ -774,7 +774,7 @@ a.faded-button {
 
 /* CRM CSS STARTS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
 .casualities{
-  /* margin-top: 15px; */
+  margin-top: 20px; 
 }
 .cd-custom-pd{
   padding: 0px;
@@ -882,7 +882,7 @@ button.btn.btn-secondary.bg-drk-blue span img {
   width: 48.5%;
 }
 .accordion-item .form-group{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   position: relative;
 }
 .accordion-body .form-group label{
