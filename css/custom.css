@@ -236,7 +236,7 @@ ul.cont-list li a i {
   color:var(--white);
 }
 .nav-pills.custom .nav-item {
-  margin-right: 6px;
+  margin-right: 10px;
 }
 .nav-pills.custom .nav-link i{
   font-size: 20px;
@@ -644,6 +644,7 @@ h6 strong{
 
 .crm-cd-header.sub {
   padding-bottom: 0!important;
+  background: none!important;
 }
 .page-inner{
   padding-top: 20px;

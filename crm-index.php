@@ -190,7 +190,7 @@
           </div>
         </div>
         <!-- Inner Nav pills -->
-        <ul class="nav nav-pills custom mt-4" id="myTabPills" role="tablist">
+        <ul class="nav nav-pills custom mt-4 mb-2" id="myTabPills" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="activity-tab" data-bs-toggle="tab" data-bs-target="#activity" type="button" role="tab" aria-controls="activity" aria-selected="true"><i class="bi bi-activity"></i> All</button>
           </li>
@@ -601,7 +601,7 @@
           <div class="tab-pane fade show " id="quotes" role="tabpanel" aria-labelledby="quotes-tab">
             <div class="row">
             <div class="card remove-padding">
-              <div class="crm-cd-header fo-flx-center bo-bottom my-3">
+              <div class="crm-cd-header fo-flx-center bo-bottom">
                   <h4>Quotes </h4>
                   <div>
                     <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
@@ -618,76 +618,102 @@
                   </div>
                 </div>
                 <div class="card-body fo-padding">
-                  <div class="list-view fo-flx-top">
-                    <div class="card custom-list">
-                      <div>
-                        <h1 class="big-total"> €4,275 </h1>
-                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
-                          <strong>Qty: </strong> 100
-                        </p>
-                      </div>
-                      <div class="quote-message bo-primary">
-                        <p>Waiting for Approval</p>
-                      </div>
-                    </div>
-                    <div class="card custom-list">
-                      <div>
-                        <h1 class="big-total"> €4,275 </h1>
-                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
-                          <strong>Qty: </strong> 100
-                        </p>
-                      </div>
-                      <div class="quote-message bo-success">
-                        <p>Approved</p>
-                      </div>
-                    </div>
-                    <div class="card custom-list">
-                      <div>
-                        <h1 class="big-total"> €4,275 </h1>
-                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
-                          <strong>Qty: </strong> 100
-                        </p>
-                      </div>
-                      <div class="quote-message bo-hold">
-                        <p>Hold</p>
-                      </div>
-                    </div>
-                    <div class="card custom-list">
-                      <div>
-                        <h1 class="big-total"> €4,275 </h1>
-                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
-                          <strong>Qty: </strong> 100
-                        </p>
-                      </div>
-                      <div class="quote-message bo-sent">
-                        <p>Mail Sent</p>
-                      </div>
-                    </div>
-                    <div class="card custom-list">
-                      <div>
-                        <h1 class="big-total"> €4,275 </h1>
-                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
-                          <strong>Qty: </strong> 100
-                        </p>
-                      </div>
-                      <div class="quote-message bo-sent">
-                        <p>Mail Sent</p>
-                      </div>
-                    </div>
-                    <div class="card custom-list">
-                      <div>
-                        <h1 class="big-total"> €4,275 </h1>
-                        <p> <strong> Id: </strong> COMNXT-Q-01 <br>
-                          <strong>Qty: </strong> 100
-                        </p>
-                      </div>
-                      <div class="quote-message bo-primary">
-                        <p>Waiting for Approval</p>
-                      </div>
-                    </div>
-                  </div>
+                <div class="list-view ">
+               <div class="row">
+               <div class="col-md-4"><div class="card custom-list">
+                 <div>
+                 <div class="quote-message bo-primary">
+                   <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+                   
+                 </div>
+                   <h1 class="big-total"> €4,275 </h1>
+                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                 </div>
+                 
+               </div></div>
+
+                <div class="col-md-4"><div class="card custom-list">
+                 <div>
+                 <div class="quote-message bo-success">
+                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+                   
+                 </div>
+                   <h1 class="big-total"> €4,275 </h1>
+                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                 </div>
+                 
+               </div></div>
+               <div class="col-md-4"><div class="card custom-list">
+                 <div>
+                 <div class="quote-message bo-hold">
+                   <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+                   
+                 </div>
+                   <h1 class="big-total"> €4,275 </h1>
+                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                 </div>
+                 
+               </div></div>
+               <div class="col-md-4"><div class="card custom-list">
+                 <div>
+                 <div class="quote-message bo-primary">
+                   <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+                   
+                 </div>
+                   <h1 class="big-total"> €4,275 </h1>
+                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                 </div>
+                 
+               </div></div>
+
+                <div class="col-md-4"><div class="card custom-list">
+                 <div>
+                 <div class="quote-message bo-success">
+                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+                   
+                 </div>
+                   <h1 class="big-total"> €4,275 </h1>
+                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                 </div>
+                 
+               </div></div>
+               <div class="col-md-4"><div class="card custom-list">
+                 <div>
+                 <div class="quote-message bo-hold">
+                   <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+                   
+                 </div>
+                   <h1 class="big-total"> €4,275 </h1>
+                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                 </div>
+                 
+               </div></div>
+
+               </div>
+                
+               
+               
+               
+               
+               
+               
+             </div>
                 </div>
               </div>
+              
+              
 
               <div class="card remove-padding">
                 <div class="crm-cd-header fo-flx-center ">
