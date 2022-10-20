@@ -264,3 +264,4 @@ var chart = Highcharts.chart('chartcon', {
     }
   }
   doChunk();
+  

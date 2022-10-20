@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-sm bo-bottom remove-padding shadow-header">
+<nav class="navbar navbar-expand-lg bo-bottom remove-padding shadow-header">
   <div class="container-fluid bg-white">
     <a class="navbar-brand" href="#"><img src="img/logo-main.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav mr5">
+      <ul class="navbar-nav mr5 main">
         <li class="nav-item inner dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CRM <span><svg xmlns="http://www.w3.org/2000/svg" width="8.015" height="4.758" viewBox="0 0 8.015 4.758">
             <path id="_9042707_nav_arrow_down_icon_1_" data-name="9042707_nav_arrow_down_icon (1)" d="M6,9l2.947,2.947L11.894,9" transform="translate(-4.939 -7.939)" fill="none" stroke="#7d7d7d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>

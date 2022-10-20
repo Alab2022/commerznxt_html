@@ -156,7 +156,7 @@ h6.dark {
 }
 
 .address-wrapper.fo-flx-top .left, .right {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .address-wrapper.fo-flx-top h6 {
@@ -1282,7 +1282,7 @@ a.page-link {
 }
 .mail-options button.btn.btn-secondary.mr1.btn-sm {
   margin-right: 0;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   border-radius: 5px;
 }
 .mail-options{
