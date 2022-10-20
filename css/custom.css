@@ -920,14 +920,17 @@ input[type="checkbox"]:checked + label:after {
   content: "✔";
   font-size: 20px;
   line-height: 20px;
-  color: #b7b7b7;
+  color: #fff;
   display: block;
   position: absolute;
-  top: 0;
-  left: 4px;
-  width: 20px;
-  height: 20px;
+  top: -3px;
+  left: 0px;
+  width: 22px;
+  height: 22px;
   border-radius: 3px;
+  border: 1px solid #e58643;
+  background-color: #f98f45;
+  border-radius: 5px;
 }
 .radio-custom .form-check{
   padding-left:0!important;
