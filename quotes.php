@@ -16,7 +16,6 @@
 		</div>
 		<div class="container-fluid page-inner">
 			<div class="row">
-            <div class="row">
                <div class="col-md-3"><div class="card custom-list">
                  <div>
                  <div class="quote-message bo-primary">
@@ -25,7 +24,7 @@
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <div class="flag_general mt-2 me-2">Qty: 100</div>
                    <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                  </div>
                  
@@ -39,7 +38,7 @@
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <div class="flag_general mt-2 me-2">Qty: 100</div>
                    <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                  </div>
                  
@@ -52,7 +51,7 @@
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <div class="flag_general mt-2 me-2">Qty: 100</div>
                    <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                  </div>
                  
@@ -65,7 +64,7 @@
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <div class="flag_general mt-2 me-2">Qty: 100</div>
                    <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                  </div>
                  
@@ -79,7 +78,7 @@
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <div class="flag_general mt-2 me-2">Qty: 100</div>
                    <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                  </div>
                  
@@ -92,13 +91,12 @@
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
+                   <div class="flag_general mt-2 me-2">Qty: 100</div>
                    <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                  </div>
                  
                </div></div>
 
-               </div>
 			</div>
 		</div>
         

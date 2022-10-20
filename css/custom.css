@@ -959,7 +959,9 @@ input[type="checkbox"]:checked + label:after {
   width: 45%;
 }
 
-
+.quote-message p{
+  margin-bottom: 0;
+}
 
 
 /* --------------------------Media Query Portrait --------------------------*/
