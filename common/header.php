@@ -13,9 +13,9 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="crm-index.php">Customer</a></li>
             <li><a class="dropdown-item" href="#">Company</a></li>
-            <li><a class="dropdown-item" href="#">Quotes</a></li>
-            <li><a class="dropdown-item" href="#">Order</a></li>
-            <li><a class="dropdown-item" href="#">Invoice</a></li>
+            <li><a class="dropdown-item" href="quotes.php">Quotes</a></li>
+            <li><a class="dropdown-item" href="orders.php">Order</a></li>
+            <li><a class="dropdown-item" href="invoice.php">Invoice</a></li>
           </ul>
         </li>
        

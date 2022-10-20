@@ -3,7 +3,7 @@
 <div class="container-fluid remove-margin bg-white">
   <div class="db-top-wrapper">
     <div class="left">
-      <h4>My Task</h4>
+      <h4>Invoice</h4>
       <ul class="breadcrumb">
         <li><a href="#">Dashboard</a></li>
         <li><a href="#">Task</a></li>
@@ -30,13 +30,13 @@
       </div>
       <button type="button" class="btn btn-primary ms-2 filter-bg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-funnel-fill"></i></button>
 
-      <button class="btn btn-primary ms-2"><span><img src="img/create.svg" alt=""></span> Create</button>
+      <a href="invoice-view.php" class="btn btn-secondary ms-2"><span><img src="img/ad-invoice.svg" alt=""></span> Generate Invoice</a>
     </div>
   </div>
 </div>
 <div class="container-fluid page-inner">
+
   <div class="row">
-
     <div class="col-md-3">
       <div class="card custom-list">
         <div>
@@ -46,13 +46,17 @@
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+            <label class="form-check-label" for="flexCheckDefault1">
+              Generate Invoice
+            </label>
+          </div>
         </div>
 
       </div>
     </div>
-
     <div class="col-md-3">
       <div class="card custom-list">
         <div>
@@ -62,8 +66,13 @@
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <a href="quotes-view.php" class="btn btn-light btn-sm"><i class="bi bi-eye-fill"></i> View </a>
+
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+              Generate Invoice
+            </label>
+          </div>
         </div>
 
       </div>
@@ -72,13 +81,18 @@
       <div class="card custom-list">
         <div>
           <div class="quote-message bo-hold">
-            <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+            <p> <i class="bi bi-stopwatch-fill"></i> Hold</p>
 
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+            <label class="form-check-label" for="flexCheckDefault3">
+              Generate Invoice
+            </label>
+          </div>
         </div>
 
       </div>
@@ -92,13 +106,17 @@
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+            <label class="form-check-label" for="flexCheckDefault4">
+              Generate Invoice
+            </label>
+          </div>
         </div>
 
       </div>
     </div>
-
     <div class="col-md-3">
       <div class="card custom-list">
         <div>
@@ -108,8 +126,13 @@
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+            <label class="form-check-label" for="flexCheckDefault5">
+              Generate Invoice
+            </label>
+          </div>
         </div>
 
       </div>
@@ -118,13 +141,18 @@
       <div class="card custom-list">
         <div>
           <div class="quote-message bo-hold">
-            <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+            <p> <i class="bi bi-stopwatch-fill"></i> Hold</p>
 
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+            <label class="form-check-label" for="flexCheckDefault6">
+              Generate Invoice
+            </label>
+          </div>
         </div>
 
       </div>
@@ -132,6 +160,8 @@
 
 
   </div>
+
+
 
   <!-- create user offcanvas -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">

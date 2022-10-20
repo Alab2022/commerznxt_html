@@ -11,8 +11,8 @@
       </ul>
     </div>
     <div class="right"><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-  Link
-</a></div>
+        Link
+      </a></div>
   </div>
 </div>
 
@@ -41,14 +41,14 @@
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
     <div class="row">
       <div class="col-md-4">
-      <div class="offcanvas offcanvas-start mobile" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <!-- Search Contacts -->
-    <div class="d-flex">
+        <div class="offcanvas offcanvas-start mobile" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- Search Contacts -->
+            <div class="d-flex">
               <div class="inner-addon right-addon search_md">
                 <i class="bi bi-search"></i>
                 <input type="text" class="form-control" placeholder="Search" />
@@ -145,8 +145,8 @@
                 </a>
               </li>
             </ul>
-  </div>
-</div>
+          </div>
+        </div>
 
         <div class="card sticky d-none d-lg-block">
           <div class="card-body">
@@ -1256,116 +1256,128 @@
 
                   <div class="list-view fo-flx-top">
                     <div class="row">
-                    <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-primary">
-                   <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                      <label class="form-check-label" for="flexCheckDefault1">
-                        Generate Invoice
-                      </label>
-                    </div>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-success">
-                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                      <label class="form-check-label" for="flexCheckDefault2">
-                        Generate Invoice
-                      </label>
-                    </div>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-hold">
-                   <p> <i class="bi bi-stopwatch-fill"></i> Hold</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                      <label class="form-check-label" for="flexCheckDefault3">
-                        Generate Invoice
-                      </label>
-                    </div>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-primary">
-                   <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-                      <label class="form-check-label" for="flexCheckDefault4">
-                        Generate Invoice
-                      </label>
-                    </div>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-success">
-                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
-                      <label class="form-check-label" for="flexCheckDefault5">
-                        Generate Invoice
-                      </label>
-                    </div>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-hold">
-                   <p> <i class="bi bi-stopwatch-fill"></i> Hold</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
-                      <label class="form-check-label" for="flexCheckDefault6">
-                        Generate Invoice
-                      </label>
-                    </div>
-                 </div>
-                 
-               </div></div>
-                    
-                    
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-primary">
+                              <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+
+                            <div class="form-check mt-4">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                              <label class="form-check-label" for="flexCheckDefault1">
+                                Generate Invoice
+                              </label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-success">
+                              <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+
+                            <div class="form-check mt-4">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                              <label class="form-check-label" for="flexCheckDefault2">
+                                Generate Invoice
+                              </label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-hold">
+                              <p> <i class="bi bi-stopwatch-fill"></i> Hold</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+
+                            <div class="form-check mt-4">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                              <label class="form-check-label" for="flexCheckDefault3">
+                                Generate Invoice
+                              </label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-primary">
+                              <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+
+                            <div class="form-check mt-4">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                              <label class="form-check-label" for="flexCheckDefault4">
+                                Generate Invoice
+                              </label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-success">
+                              <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+
+                            <div class="form-check mt-4">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                              <label class="form-check-label" for="flexCheckDefault5">
+                                Generate Invoice
+                              </label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-hold">
+                              <p> <i class="bi bi-stopwatch-fill"></i> Hold</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+
+                            <div class="form-check mt-4">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                              <label class="form-check-label" for="flexCheckDefault6">
+                                Generate Invoice
+                              </label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+
                     </div>
 
                   </div>
