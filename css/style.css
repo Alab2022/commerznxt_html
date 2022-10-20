@@ -171,19 +171,23 @@ h6.dark {
 }
 
 thead tr {
-  background: #f9f9f9;
+  background: #97CDCD;
 }
 
 thead tr th {
   font-size: 14px;
   font-weight: 600;
-  padding: 20px !important;
+  color: #FFFFFF;
+  padding: 15px !important;
 }
-
+tbody tr:nth-child(even) {
+  background: #F8FBFF;
+}
 tbody tr td {
   font-size: 14px;
   font-weight: 400;
-  padding: 20px !important;
+  border: none;
+  padding: 15px !important;
 }
 
 .table-footer.fo-flx-top td {
@@ -603,11 +607,13 @@ ul.breadcrumb li a:hover {
 }
 
 /* Breadcrumb css ends */
+
 /* Dashboard css starts here */
 .icon-wrap {
   padding: 13px;
   border-radius: 50px;
   width: 52px;
+  justify-content: center;
   text-align: center;
   margin-right: 10px;
   height: 52px;
@@ -708,6 +714,8 @@ h3 {
 .card-heading h4 {
     font-size: 18px;
     font-weight: 600;
+    color: #3E3E3E;
+    margin-bottom: 0;
 }
 .text-green{
     font-size: 14px !important;
@@ -1013,10 +1021,18 @@ thead tr th:first-child{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+tbody tr td:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
 thead tr th{
   border: none;
 }
 thead tr th:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+tbody tr td:last-child{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -1280,106 +1296,111 @@ a.page-link {
 /* Mail template css ends here /////////////////////////////////////////////////////////////////////////////*/
 
 /* CRM CSS ENDS HERE///////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* Mail template css starts here /////////////////////////////////////////////////////////////////////////////*/
-.mail-cm {
-  position: absolute;
-  right: 27px;
+
+/* Dashboard SE CSS Starts here////////////////////////////////////////////////////////////////////////// */
+
+.cd-fl-dr .card{
+  flex-direction: row;
 }
-.mail-header {
-  border: 1px solid #E7EDF2;
-  border-radius: 3px;
-  background: #F8F8F8;
+.fl-wrapper .left img {
+  width: 60px;
+  margin-right: 15px;
 }
-.mail-header h6{
-  font-size: 16px;
-  color: #798692;
-  margin-bottom: 0;
+.fl-wrapper .left p {
+  font-size: 18px;
+  color: #3E3E3E;
+  font-weight: 500 !important;
 }
-.mail-cm-pad{
-  padding: 10px 15px;
+.fl-wrapper .left .price-merun{
+font-weight: 700 !important;
+color: #BC7D85 !important;
 }
-.mail h6{
-  margin-bottom: 0;
-}.mail p{
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #798692;
-  font-weight: 400;
-}
-.mail-template {
-  border: 1px solid #E7EDF2;
-  border-radius: 5px;
-}
-.fl-actions {
-  position: absolute;
-  right: 42px;
-}
-.capsules {
-  border: 1px solid #E3E3E3;
-  border-radius: 20px;
-  margin-left: 10px;
-  padding: 5px 13px;
-}
-.fl-actions a{
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #798692;
-  font-weight: 400;
-}
-.mail-body-input textarea {
-  width: 100%;
-  max-height: 200px;
-  border: none;
-  height: 100%;
-  outline: none;
-  min-height: 200px;
-  overflow: auto;
-  padding: 10px;
-  font-size: 14px;
-  color: #798692;
-  font-weight: 400;
-}
-.set i {
-  font-size: 20px;
-  cursor: pointer;
-  color: #89949F;
-}
-.remove-bg {
-    background: none !important;
-    color: #3E5CBC;
-    font-size: 14px;
-    position: relative;
-    padding:0 10px !important;
-    border-right: 1px solid #89949F !important;
-    border-radius: 0 !important;
-    margin-right: 10px;
-}
-.remove-bg:hover{
-  color: #3E5CBC !important;
-}
-.fl-rht {
-  position: unset !important;
-  font-size: 10px !important;
-  color: #3E5CBC !important;
-}
-.set {
+.fl-wrapper .right {
+  width: auto;
+  background-color: #429EBD;
+  color:#fff;
   padding: 5px;
-  border: 1px solid #E7EDF2;
-  border-radius: 5px;
-  width: min-content;
-  margin-right: 10px;
-}
-.mail-options button.btn.btn-secondary.mr1.btn-sm {
-  margin-right: 0;
-  padding: 10px 20px;
   border-radius: 5px;
 }
-.mail-options{
-  justify-content: right;
+.fl-wrapper{
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
-.capsules i {
-  font-size: 14px !important;
-  margin-bottom: 0 !important;
-  color: #798692 !important;
+.fl-wrapper .right h1 {
+  font-size: 28px;
 }
-/* Mail template css ends here /////////////////////////////////////////////////////////////////////////////*/
+.fl-wrapper .right p {
+  font-size: 13px !important;
+  line-height: 15px;
+}
+.fl-status {
+  padding: 10px;
+  width: 90px;
+  text-align: center;
+}
+.bo-prim{
+  border: 1px solid #FF9437;
+  border-radius: 5px;
+  color:#FF9437 ;
+}
+.bo-prim h6{
+  color:#FF9437 ;
+  margin-bottom: 0;
+  font-size: 12px !important;
+}
+.bo-prog{
+  border: 1px solid #FCD331;
+  border-radius: 5px;
+}
+.bo-prog h6{
+  color:#FCD331 ;
+  margin-bottom: 0;
+  font-size: 12px !important;
+}
+.static-wi p {
+  font-size: 16px !important;
+  color: #4B4B5A !important;
+}
+p.date {
+  font-size: 12px !important;
+  color: #AEAEAE !important;
+}
+.st-height {
+  padding-right: 5px;
+  height: 350px;
+  max-height: 100%;
+  overflow: auto;
+  min-height: 350px;
+}
+.tb-status{
+font-size: 13px;
+border-radius: 26px;
+border: 1px solid;
+text-align: center;
+width: 100px;
+padding: 5px;
+}
+.tb-status h6{
+  margin-bottom: 0;
+}
+td i.bi.bi-eye-fill {
+  color: #8C94B2;
+  font-size: 18px;
+}
+.tb-status.bo-primary h6 {
+  color: #FF9437;
+}
+.tb-status.bo-success h6 {
+  color: #2BB771;
+}
+.tb-status.bo-success {
+  border-color: #2BB771;
+}
+.tb-status.bo-hold h6 {
+  color: #FCD331;
+}
+.tb-status.bo-hold, h6 {
+  border-color: #FCD331;
+}
+
+/* Dashboard SE CSS Ends here////////////////////////////////////////////////////////////////////////// */
