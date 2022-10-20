@@ -1,5 +1,6 @@
 <?php include('common/head.php'); ?>
 <?php include('common/header.php'); ?>
+
 <div class="container-fluid remove-margin bg-white">
   <div class="db-top-wrapper">
     <div class="left">
@@ -9,8 +10,14 @@
         <li><a href="#">Customer Status Overview</a></li>
       </ul>
     </div>
+    <div class="right"><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Link
+</a></div>
   </div>
 </div>
+
+
+
 
 
 <ul class="nav nav-tabs page-nav" id="myTab" role="tablist">
@@ -34,7 +41,114 @@
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
     <div class="row">
       <div class="col-md-4">
-        <div class="card sticky">
+      <div class="offcanvas offcanvas-start mobile" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <!-- Search Contacts -->
+    <div class="d-flex">
+              <div class="inner-addon right-addon search_md">
+                <i class="bi bi-search"></i>
+                <input type="text" class="form-control" placeholder="Search" />
+              </div>
+              <button type="button" class="btn btn-primary ms-2 d-flex align-items-center plus" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus"></i> Add</button>
+            </div>
+            <div class="name_filter">A</div>
+            <ul class="cont-list">
+              <li>
+                <a class="d-flex justify-content-between align-items-center" href="#">
+                  <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med" />
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Sales Executive</h4>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex justify-content-between align-items-center" href="#">
+                  <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med" />
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Sales Executive</h4>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex justify-content-between align-items-center" href="#">
+                  <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med" />
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Sales Executive</h4>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="name_filter">B</div>
+            <ul class="cont-list">
+              <li>
+                <a class="d-flex justify-content-between align-items-center" href="#">
+                  <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med" />
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Sales Executive</h4>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex justify-content-between align-items-center" href="#">
+                  <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med" />
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Sales Executive</h4>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex justify-content-between align-items-center" href="#">
+                  <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med" />
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Sales Executive</h4>
+                    </div>
+                  </div>
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+              </li>
+            </ul>
+  </div>
+</div>
+
+        <div class="card sticky d-none d-lg-block">
           <div class="card-body">
             <!-- Search Contacts -->
             <div class="d-flex">

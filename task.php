@@ -342,11 +342,23 @@
         <div class="row">
         <div class="col">
         <label for="exampleFormControlTextarea1" class="form-label">Target Date</label>
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+		<div class="input-group date" id="datepicker">
+        <input type="text" class="form-control" id="date"/>
+        <span class="input-group-append shadow-cs ">
+          <span class="input-group-text bg-light d-block dp_icon">
+		  <i class="bi bi-calendar-week-fill"></i>
+          </span>
+        </span>
+      </div>
         </div>
         <div class="col">
         <label for="exampleFormControlTextarea1" class="form-label">Status</label>
-            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Select</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
         </div>
         </div>
 
