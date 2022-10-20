@@ -544,6 +544,7 @@ ul.dropdown-menu.show li:last-child {
 .db-top-wrapper .right {
   display: flex;
   justify-content: right;
+  white-space: nowrap;
 }
 
 li.dropdown.open ul.dropdown-menu li a {
@@ -1402,5 +1403,12 @@ td i.bi.bi-eye-fill {
 .tb-status.bo-hold, h6 {
   border-color: #FCD331;
 }
-
 /* Dashboard SE CSS Ends here////////////////////////////////////////////////////////////////////////// */
+
+/* Quotes CSS Starts here */
+
+.filter-bg {
+  background: #EFF2F6 !important;
+  color: #63719C;
+  border-radius: 50px;
+}
