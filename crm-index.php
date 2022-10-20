@@ -1151,18 +1151,14 @@
                <div class="col-md-4"><div class="card custom-list">
                  <div>
                  <div class="quote-message bo-success">
-                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+                   <p> <i class="bi bi-check-circle-fill"></i> Closed</p>
                    
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
                    
-                   <div class="form-check mt-4">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                      <label class="form-check-label" for="flexCheckDefault2">
-                        Generate Invoice
-                      </label>
-                    </div>
+                  
+                    <button class="btn btn-light btn-sm mt-2"><i class="bi bi-file-earmark-pdf-fill pdf me-1"></i>View PDF</button>
                  </div>
                  
                </div></div>

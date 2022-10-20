@@ -482,6 +482,12 @@ tl-item.active .tl-dot:before {
 }
 i.pdf{
   color: var(--error);
+  font-size: 20px;
+}
+.pdf-holder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tl-content-inner{
   background: #FCFCFC;
