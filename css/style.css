@@ -1068,6 +1068,13 @@ thead tr th:last-child{
 .quote-message p{
   font-size: 14px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.quote-message p i {
+  font-size: 20px;
+  margin-right: 7px;
 }
 .list-view {
   flex-wrap: wrap;
