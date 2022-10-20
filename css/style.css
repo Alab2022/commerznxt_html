@@ -85,7 +85,7 @@ align-items: center;
   border: none;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: rgba(89, 89, 89, 0.16) 0px 1px 4px;
+  /* box-shadow: rgba(89, 89, 89, 0.16) 0px 1px 4px; */
 }
 
 .card-pd {
@@ -845,6 +845,9 @@ button.btn.btn-secondary.bg-drk-blue span img {
 }
 .crm-cd-header{
   padding: 15px 28px;
+  background: #fcfcfc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .fo-padding{
   padding: 28px;
@@ -1027,13 +1030,17 @@ thead tr th:last-child{
   margin-left: 10px;
 }
 .custom-list {
-  flex-direction: row;
-  align-items: center;
-  width: 32%;
-  padding: 15px;
-  justify-content: space-between;
-  border: 1px solid #E8E8E8 !important;
+  /* flex-direction: row;
+  align-items: center; */
+  /* width: 32%; */
+  padding: 25px;
+  /* justify-content: space-between; */
+  /* border: 1px solid #E8E8E8 !important; */
   border-radius: 5px !important;
+  text-align: center;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 4%)!important;
+  margin-bottom: 1.5rem;
+  border: 1px solid #f0f0f0!important;
   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px !important; */
 }
 .list-view p {
@@ -1042,29 +1049,31 @@ thead tr th:last-child{
   color: #a0a0a0;
 }
 .list-view h1.big-total {
-  font-size: 27px;
+  font-size: 36px;
   margin-bottom: 5px;
   font-weight: 800;
 }
 .quote-message {
   padding: 5px;
-    width: 75px;
+    width: 100%;
     justify-content: center;
     line-height: 13px;
-    height: 54px;
+    /* height: 54px; */
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 10px;
+    /* margin-top: 20px; */
 }
 .quote-message p{
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
 }
 .list-view {
   flex-wrap: wrap;
 }
 .bo-primary{
-border: 1px solid #F98F45;
+/* border: 1px solid #F98F45; */
 border-radius: 5px;
 color: #F98F45;
 }
@@ -1074,8 +1083,7 @@ color: #F98F45;
 .text-primary{
   color: #F98F45 !important;
 }
-.bo-success{
-  border: 1px solid #23BC70;
+.bo-success button{
   border-radius: 5px;
   color: #23BC70;
 }
@@ -1083,7 +1091,7 @@ color: #F98F45;
   color: #23BC70;
 }
 .bo-hold{
-  border: 1px solid #FCD331 !important;
+  /* border: 1px solid #FCD331 !important; */
   border-radius: 5px;
   color: #FCD331;
 }
