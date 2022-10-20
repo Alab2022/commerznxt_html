@@ -10,7 +10,17 @@
 					</ul>
 				</div>
 				<div class="right">
-					<button class="btn btn-primary"><i class="bi bi-file-earmark-arrow-up-fill"></i> Export to CSV</button>
+        <div class="form-group ms-2">
+
+
+</div>
+<div class="inner-addon right-addon search_md ms-2">
+<i class="bi bi-search"></i>
+<input type="text" class="form-control" placeholder="Search" />
+</div>
+          <button type="button" class="btn btn-primary ms-2 filter-bg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-funnel-fill"></i></button>
+
+					<button class="btn btn-primary ms-2"><i class="bi bi-file-earmark-arrow-up-fill"></i> Export to CSV</button>
 				</div>
 			</div>
 		</div>
@@ -98,6 +108,16 @@
                </div></div>
 
 			</div>
+
+       <!-- create user offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Add User</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+
+    </div>
 		</div>
         
 		<?php include('common/footer.php'); ?>

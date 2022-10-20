@@ -714,8 +714,8 @@
           <!-- Quotes Content -->
           <div class="tab-pane fade show " id="quotes" role="tabpanel" aria-labelledby="quotes-tab">
             <div class="row">
-            <div class="card remove-padding">
-              <div class="crm-cd-header fo-flx-center bo-bottom">
+              <div class="card remove-padding">
+                <div class="crm-cd-header fo-flx-center bo-bottom">
                   <h4>Quotes </h4>
                   <div>
                     <h6 class="fo-flx-center">Sales Executive: <p>Liam Olivia</p> <span><img src="img/prof-1.png" alt=""></span> </h6>
@@ -732,102 +732,114 @@
                   </div>
                 </div>
                 <div class="card-body fo-padding">
-                <div class="list-view ">
-               <div class="row">
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-primary">
-                   <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
-                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-                 </div>
-                 
-               </div></div>
+                  <div class="list-view ">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-primary">
+                              <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
 
-                <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-success">
-                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
-                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-hold">
-                   <p> <i class="bi bi-hourglass-top"></i> Hold</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
-                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-primary">
-                   <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
-                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-                 </div>
-                 
-               </div></div>
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                          </div>
 
-                <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-success">
-                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
-                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-                 </div>
-                 
-               </div></div>
-               <div class="col-md-4"><div class="card custom-list">
-                 <div>
-                 <div class="quote-message bo-hold">
-                   <p> <i class="bi bi-hourglass-top"></i> Hold</p>
-                   
-                 </div>
-                   <h1 class="big-total"> €4,275 </h1>
-                   <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                   <div class="flag_general mt-4 me-2">Qty: 100</div>
-                   <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-                 </div>
-                 
-               </div></div>
+                        </div>
+                      </div>
 
-               </div>
-                
-               
-               
-               
-               
-               
-               
-             </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-success">
+                              <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-hold">
+                              <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-primary">
+                              <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-success">
+                              <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card custom-list">
+                          <div>
+                            <div class="quote-message bo-hold">
+                              <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+
+                            </div>
+                            <h1 class="big-total"> €4,275 </h1>
+                            <p> <strong> Id: </strong> COMNXT-Q-01 </p>
+                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+
+
+
+
+
+
+                  </div>
                 </div>
               </div>
-              
-              
+
+
 
               <div class="card remove-padding">
                 <div class="crm-cd-header fo-flx-center ">
@@ -837,8 +849,8 @@
 
                       <h6 class="text-green">Approved <span><i class="bi bi-info-circle-fill"></i></span></h6>
                     </div>
-                    <button type="button" class="btn btn-secondary mr1">Create</button>
-                    <button type="button" class="btn btn-secondary-light">Edit</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Edit</button>
                   </div>
 
 
@@ -970,9 +982,9 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
-                    <button type="button" class="btn btn-secondary-light">Save</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
               </div>
@@ -1201,9 +1213,9 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
-                    <button type="button" class="btn btn-secondary-light">Save</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
               </div>
@@ -1265,14 +1277,18 @@
                <div class="col-md-4"><div class="card custom-list">
                  <div>
                  <div class="quote-message bo-success">
-                   <p> <i class="bi bi-check-circle-fill"></i> Closed</p>
+                   <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
                    
                  </div>
                    <h1 class="big-total"> €4,275 </h1>
                    <p> <strong> Id: </strong> COMNXT-Q-01 </p>
                    
-                  
-                    <button class="btn btn-light btn-sm mt-2"><i class="bi bi-file-earmark-pdf-fill pdf me-1"></i>View PDF</button>
+                   <div class="form-check mt-4">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                      <label class="form-check-label" for="flexCheckDefault2">
+                        Generate Invoice
+                      </label>
+                    </div>
                  </div>
                  
                </div></div>
@@ -1539,10 +1555,10 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1">View Payment Plan</button>
-                    <button type="button" class="btn btn-secondary mr1">Create Payment Paln</button>
-                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
-                    <button type="button" class="btn btn-secondary-light">Save</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create Payment Paln</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
               </div>
@@ -1669,11 +1685,11 @@
                     <h6>Showing 50 of 200</h6>
                     <nav aria-label="Page navigation example">
 
-                    <div class="button-wrapper mt-3 fo-flx-right align-center">
+                      <div class="button-wrapper mt-3 fo-flx-right align-center">
 
-                      <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
-                      <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
-                    </div>
+                        <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                        <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
+                      </div>
                   </div>
                 </div>
               </div>
