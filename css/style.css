@@ -1481,3 +1481,8 @@ font-weight: 600;
 .detail-vw-wi .fo-flx-right {
   white-space: nowrap;
 }
+.crm.custom .content {
+  text-align: left;
+}
+
+/* outer pages CSS ends here ///////////////////////////////////////////////////////////////////////////////////////*/

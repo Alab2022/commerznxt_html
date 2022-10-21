@@ -255,7 +255,7 @@
         </div>
       </div>
       <div class="col-md-8">
-        <div class="card cd-custom-pd crm">
+        <div class="card cd-custom-pd crm custom">
           <div class="card-body card-pad-avatar ">
             <button type="button" class="btn btn-secondary bg-drk-blue"> <span><img src="img/edit.svg" alt=""></span> Edit</button>
             <div class="db-top-wrapper">
