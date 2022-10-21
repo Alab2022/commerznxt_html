@@ -19,19 +19,7 @@
 </div>
 <div class="container-fluid page-inner">
 <div class="card remove-padding detail-vw-wi">
-                <!-- <div class="crm-cd-header fo-flx-center ">
-                  <h4>Quote Detail View </h4>
-                  <div class="button-wrapper mt-3 fo-flx-right align-center">
-                    <div class="fo-tooltip" data-bs-toggle="tooltip" title="Lorem Ipsum has been the industry's standard">
 
-                      <h6 class="text-green">Approved <span><i class="bi bi-info-circle-fill"></i></span></h6>
-                    </div>
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create</button>
-                    <button type="button" class="btn btn-secondary-light btn-sm">Edit</button>
-                  </div>
-
-
-                </div> -->
                 <div class="divider w-100 remove-padding"></div>
                 <div class="card-body fo-padding">
                   <div class="brand-wrapper fo-flx-bottom">

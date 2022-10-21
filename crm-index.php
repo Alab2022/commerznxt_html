@@ -10,9 +10,9 @@
         <li><a href="#">Customer Status Overview</a></li>
       </ul>
     </div>
-    <div class="right"><a class="btn btn-primary d-sm-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-  Link
-</a></div>
+    <div class="right"><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Link
+      </a></div>
   </div>
 </div>
 
@@ -255,7 +255,7 @@
         </div>
       </div>
       <div class="col-md-8">
-        <div class="card cd-custom-pd crm custom">
+        <div class="card cd-custom-pd crm">
           <div class="card-body card-pad-avatar ">
             <button type="button" class="btn btn-secondary bg-drk-blue"> <span><img src="img/edit.svg" alt=""></span> Edit</button>
             <div class="db-top-wrapper">
@@ -1567,7 +1567,7 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cr" aria-controls="offcanvasRight-cr">View Payment Plan</button>
                     <button type="button" class="btn btn-secondary mr1 btn-sm">Create Payment Paln</button>
                     <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
@@ -1575,6 +1575,8 @@
                 </div>
               </div>
             </div>
+
+
           </div>
 
           <!-- Invoice Content -->
@@ -2068,6 +2070,63 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- create user offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-cr" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Payment Plan</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="custom-form">
+
+        
+
+        <div class="form mb-3">
+          <label for="">Total Amount</label>
+          <input type="text">
+        </div>
+        <div class="form-flex fo-flx-js-sb mb-3">
+          <div class="form-group">
+            <label for="">Credit Period</label>
+            <input type="text" class="shadow-cs">
+          </div>
+          <div class="form-group">
+            <label for="">No.of Installment</label>
+            <input type="text">
+          </div>
+        </div>
+        <div class="form-flex fo-flx mb3">
+          <div class="form-group">
+            <label for="">1st Installment</label>
+            <input type="text" class="shadow-cs">
+          </div>
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Mark as Received
+            </label>
+          </div>
+        </div>
+        <div style="margin-top: 15px;" class="form-flex fo-flx">
+          <div class="form-group">
+            <label for="">2nd Installment</label>
+            <input type="text" class="shadow-cs">
+          </div>
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Mark as Received
+            </label>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="offcanvas-footer fil-pd">
+        <button type="button" class="btn btn-secondary sec-custom">Cancel</button>
+        <button type="button" class="btn btn-primary ms-2 ">Submit</button>
+      </div>
     </div>
   </div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
