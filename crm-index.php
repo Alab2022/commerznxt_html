@@ -10,7 +10,7 @@
         <li><a href="#">Customer Status Overview</a></li>
       </ul>
     </div>
-    <div class="right"><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    <div class="right"><a class="btn btn-primary d-sm-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
         Link
       </a></div>
   </div>
@@ -55,7 +55,8 @@
               </div>
               <button type="button" class="btn btn-primary ms-2 d-flex align-items-center plus" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus"></i> Add</button>
             </div>
-            <div class="name_filter">A</div>
+            <div class="followup-wrapper mt-3 st-height-customer">
+            <div class="name_filter">Aasas</div>
             <ul class="cont-list">
               <li>
                 <a class="d-flex justify-content-between align-items-center" href="#">
@@ -145,6 +146,9 @@
                 </a>
               </li>
             </ul>
+            
+            </div>
+            
           </div>
         </div>
 
@@ -158,6 +162,7 @@
               </div>
               <button type="button" class="btn btn-primary ms-2 d-flex align-items-center plus" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus"></i> Add</button>
             </div>
+            <div class="followup-wrapper mt-3 st-height-customer">
             <div class="name_filter">A</div>
             <ul class="cont-list">
               <li>
@@ -248,7 +253,7 @@
                 </a>
               </li>
             </ul>
-
+            </div>
 
 
           </div>
@@ -351,8 +356,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Email has been sent by <b>David (Role:Sales Exec1)</b> </div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <h5>SUBJECT: BETA CRM LTD</h5>
@@ -365,8 +370,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Quotation <a href="#">#QTE0097</a> created on <b>16.07.2022 07:20:09 AM </b> by <b>Adam</b> Requested for Approval</div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">View or Download as PDF <i class="bi bi-file-earmark-pdf-fill pdf"></i></div>
                               </div>
@@ -376,8 +381,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Quotation <a href="#">#QTE0097</a> Approved by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
 
                               </div>
@@ -387,8 +392,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">SMS has been sent by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>Hi John, Hope you are doing good! we are waiting for your reply for the latest quotation</p>
@@ -400,8 +405,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">SMS has been received by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>Hi Adam, Currently I'm not available for a week, Kindly call me next week on 26/10/2022</p>
@@ -413,8 +418,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">Comment added by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                                 <div class="tl-content-inner">
                                   <p>The call via google meet went well. He is expecting 20% on product 1 for min 10 qty</p>
@@ -426,8 +431,8 @@
                               <div class="tl-content">
                                 <div class="tl-title">1st installment payment has been received for invoice <a href="#"> #INV0097 </a> <b>€ 10,000</b> Submitted by <b>Adam</b></div>
                                 <div class="tl-date text-muted mt-1">
-                                  <span><i class="bi bi-calendar-check"></i>Oct 03</span>
-                                  <span><i class="bi bi-clock"></i>12:30 PM</span>
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
                                 </div>
                               </div>
                             </div>
@@ -463,7 +468,7 @@
 
                     <div class="button-wrapper mt-3 fo-flx-right align-center">
                       <h6>attachments if any <span><i class="bi bi-paperclip"></i></span></h6>
-                      <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
+                      <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
                       <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                     </div>
                   </div>
@@ -527,6 +532,7 @@
               </div>
             </div>
           </div>
+
           <!-- Email Content -->
           <div class="tab-pane fade show " id="email" role="tabpanel" aria-labelledby="email-tab">
             <div class="row">
@@ -701,7 +707,7 @@
                           <i class="bi bi-image-fill mr1"></i>
                           <i class="bi bi-paperclip"></i>
                         </div>
-                        <button type="button" class="btn btn-secondary btn-sm">Send</button>
+                        <button type="button" class="btn btn-secondary mr1 btn-sm">Send</button>
                       </div>
                     </div>
                   </div>
@@ -709,6 +715,7 @@
               </div>
             </div>
           </div>
+
           <!-- Quotes Content -->
           <div class="tab-pane fade show " id="quotes" role="tabpanel" aria-labelledby="quotes-tab">
             <div class="row">
@@ -741,12 +748,13 @@
                             </div>
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <div class="flag_general mt-1 me-2">Qty: 100</div>
                             <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                           </div>
 
                         </div>
                       </div>
+
                       <div class="col-md-4">
                         <div class="card custom-list">
                           <div>
@@ -756,7 +764,7 @@
                             </div>
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <div class="flag_general mt-1 me-2">Qty: 100</div>
                             <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                           </div>
 
@@ -767,10 +775,11 @@
                           <div>
                             <div class="quote-message bo-hold">
                               <p> <i class="bi bi-hourglass-top"></i> Hold</p>
+
                             </div>
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <div class="flag_general mt-1 me-2">Qty: 100</div>
                             <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                           </div>
 
@@ -785,11 +794,13 @@
                             </div>
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <div class="flag_general mt-1 me-2">Qty: 100</div>
                             <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                           </div>
+
                         </div>
                       </div>
+
                       <div class="col-md-4">
                         <div class="card custom-list">
                           <div>
@@ -799,7 +810,7 @@
                             </div>
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <div class="flag_general mt-1 me-2">Qty: 100</div>
                             <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                           </div>
 
@@ -814,7 +825,7 @@
                             </div>
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-                            <div class="flag_general mt-4 me-2">Qty: 100</div>
+                            <div class="flag_general mt-1 me-2">Qty: 100</div>
                             <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
                           </div>
 
@@ -823,19 +834,27 @@
 
                     </div>
 
+
+
+
+
+
+
                   </div>
                 </div>
               </div>
+
+
 
               <div class="card remove-padding">
                 <div class="crm-cd-header fo-flx-center ">
                   <h4>Quote Detail View </h4>
                   <div class="button-wrapper mt-3 fo-flx-right align-center">
-                    <div class="fo-tooltip" data-bs-toggle="popover" title="Popover Header" data-bs-content="Some content inside the popover">
+                    <div class="fo-tooltip" data-bs-toggle="tooltip" title="Lorem Ipsum has been the industry's standard">
 
                       <h6 class="text-green">Approved <span><i class="bi bi-info-circle-fill"></i></span></h6>
                     </div>
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Create</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Edit</button>
                   </div>
 
@@ -968,8 +987,8 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
@@ -1066,7 +1085,7 @@
 
                       <h6 class="text-primary">Waiting for Approval</h6>
                     </div>
-                    <button type="button" class="btn btn-secondary mr0-5">Create</button>
+                    <button type="button" class="btn btn-secondary mr1">Create</button>
                     <button type="button" class="btn btn-secondary-light">Edit</button>
                   </div>
 
@@ -1199,8 +1218,8 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
@@ -1252,12 +1271,22 @@
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                              <label class="form-check-label" for="flexCheckDefault1">
-                                Generate Invoice
-                              </label>
-                            </div>
+                            <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+            </label>
+          </div>                  
+          </div>
                           </div>
 
                         </div>
@@ -1272,12 +1301,22 @@
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                              <label class="form-check-label" for="flexCheckDefault2">
-                                Generate Invoice
-                              </label>
-                            </div>
+                            <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+            </label>
+          </div>                  
+          </div>
                           </div>
 
                         </div>
@@ -1292,12 +1331,22 @@
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                              <label class="form-check-label" for="flexCheckDefault3">
-                                Generate Invoice
-                              </label>
-                            </div>
+                            <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+            </label>
+          </div>                  
+          </div>
                           </div>
 
                         </div>
@@ -1312,12 +1361,22 @@
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-                              <label class="form-check-label" for="flexCheckDefault4">
-                                Generate Invoice
-                              </label>
-                            </div>
+                            <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+            </label>
+          </div>                  
+          </div>
                           </div>
 
                         </div>
@@ -1332,12 +1391,22 @@
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
-                              <label class="form-check-label" for="flexCheckDefault5">
-                                Generate Invoice
-                              </label>
-                            </div>
+                            <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+            </label>
+          </div>                  
+          </div>
                           </div>
 
                         </div>
@@ -1352,12 +1421,22 @@
                             <h1 class="big-total"> €4,275 </h1>
                             <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-                            <div class="form-check mt-4">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
-                              <label class="form-check-label" for="flexCheckDefault6">
-                                Generate Invoice
-                              </label>
-                            </div>
+                            <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
+            </label>
+          </div>                  
+          </div>
                           </div>
 
                         </div>
@@ -1553,9 +1632,9 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cr" aria-controls="offcanvasRight-cr">View Payment Plan</button>
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Create Payment Paln</button>
-                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cr" aria-controls="offcanvasRight-cr">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create Payment Paln</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
@@ -1687,7 +1766,7 @@
 
                       <div class="button-wrapper mt-3 fo-flx-right align-center">
 
-                        <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
+                        <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
                         <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                       </div>
                   </div>
@@ -1860,9 +1939,9 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr0-5">View Payment Plan</button>
-                    <button type="button" class="btn btn-secondary mr0-5">Create Payment Paln</button>
-                    <button type="button" class="btn btn-secondary mr0-5">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr1">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr1">Create Payment Paln</button>
+                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light">Save</button>
                   </div>
                 </div>
@@ -1887,8 +1966,52 @@
 
                     <div class="button-wrapper mt-3 fo-flx-right align-center">
 
-                      <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
+                      <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
                       <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
+                    </div>
+                  </div>
+
+                  <div class="page-content page-container" id="page-content">
+                    <div class="padding">
+                      <div class="row">
+
+                        <div class="col-lg-12">
+                          <div class="timeline mb-4">
+
+                        
+                            <div class="tl-item">
+                              <div class="tl-dot b-sms"><i class="bi bi-check-square-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">SMS has been sent by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>Hi John, Hope you are doing good! we are waiting for your reply for the latest quotation</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tl-item">
+                              <div class="tl-dot b-sms"><i class="bi bi-arrow-right-square-fill"></i></div>
+                              <div class="tl-content">
+                                <div class="tl-title">SMS has been received by <b>Adam</b></div>
+                                <div class="tl-date text-muted mt-1">
+                                  <span><i class="bi bi-calendar-check-fill"></i>Oct 03</span>
+                                  <span><i class="bi bi-clock-fill"></i>12:30 PM</span>
+                                </div>
+                                <div class="tl-content-inner">
+                                  <p>Hi Adam, Currently I'm not available for a week, Kindly call me next week on 26/10/2022</p>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+
+                      </div>
                     </div>
                   </div>
 
@@ -2050,14 +2173,10 @@
           </div>
 
         </div>
-      </div>
         <div class="offcanvas-footer align-right">
 
-          
+          <button type="button" class="btn btn-primary ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Save</button>
         </div>
-        <div class="offcanvas-footer fil-pd">
-        <button type="button" class="btn btn-primary ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Save</button>
-      </div>
       </div>
 
     </div>
@@ -2069,48 +2188,48 @@
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <div class="accordion-body">
+        <div class="custom-form">
 
+        
 
-
-          <div class="form-group mb-3">
-            <label for="">Total Amount</label>
-            <input type="text">
+        <div class="form mb-3">
+          <label for="">Total Amount</label>
+          <input type="text">
+        </div>
+        <div class="form-flex fo-flx-js-sb mb-3">
+          <div class="form-group">
+            <label for="">Credit Period</label>
+            <input type="number" class="shadow-cs">
           </div>
-          <div class="form-flex fo-flx-js-sb mb-3">
-            <div class="form-group">
-              <label for="">Credit Period</label>
-              <input type="number" class="shadow-cs">
-            </div>
-            <div class="form-group">
-              <label for="">No.of Installment</label>
-              <input type="number">
-            </div>
+          <div class="form-group">
+            <label for="">No.of Installment</label>
+            <input type="number">
           </div>
-          <div class="form-flex fo-flx mb3">
-            <div class="form-group">
-              <label for="">1st Installment</label>
-              <input type="text" class="shadow-cs">
-            </div>
-            <div class="form-check mt-4">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Mark as Received
-              </label>
-            </div>
+        </div>
+        <div class="form-flex fo-flx mb3">
+          <div class="form-group">
+            <label for="">1st Installment</label>
+            <input type="text" class="shadow-cs">
           </div>
-          <div style="margin-top: 15px;" class="form-flex fo-flx">
-            <div class="form-group">
-              <label for="">2nd Installment</label>
-              <input type="text" class="shadow-cs">
-            </div>
-            <div class="form-check mt-4">
-              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Mark as Received
-              </label>
-            </div>
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Mark as Received
+            </label>
           </div>
+        </div>
+        <div style="margin-top: 15px;" class="form-flex fo-flx">
+          <div class="form-group">
+            <label for="">2nd Installment</label>
+            <input type="text" class="shadow-cs">
+          </div>
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Mark as Received
+            </label>
+          </div>
+        </div>
         </div>
       </div>
       <div class="offcanvas-footer fil-pd">
