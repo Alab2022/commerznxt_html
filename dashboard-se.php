@@ -70,7 +70,9 @@
           <h6>Task</h6>
         </div>
       </div>
-      <div class="card card-pd fo-flx">
+      <div class="card">
+        <a href="payments.php" class="card-pd">
+          <div class="fo-flx ">
         <div class="icon-wrap greenishblue">
           <img src="img/db5.svg" alt="">
         </div>
@@ -78,6 +80,8 @@
           <h3>1M</h3>
           <h6>Payment</h6>
         </div>
+        </div>
+        </a>
       </div>
     </div>
 
@@ -88,7 +92,7 @@
             <h4>Payment Followup</h4>
             <div>
 
-              <a class="faded-button" href="">View All</a>
+              <a class="btn btn-light btn-sm" href="">View All</a>
             </div>
           </div>
 
@@ -164,10 +168,10 @@
       <div class="col-md-4">
         <div class="card card-pd">
           <div class="card-heading fo-flx-sb-bl">
-            <h4>Payment Followup</h4>
+            <h4>My Task</h4>
             <div>
 
-              <a class="faded-button" href="">View All</a>
+            <a class="btn btn-light btn-sm" href="">View All</a>
             </div>
           </div>
 
@@ -180,9 +184,7 @@
                   <p class="date">Oct 03, 12:30 PM</p>
                 </div>
               </div>
-              <div class="fl-status bo-prim">
-                <h6>Open</h6>
-              </div>
+              <div class="status"><i class="bi bi-circle open"></i></div>
             </div>
             <div class="fl-wrapper fo-flx-js-sb bo-bottom">
               <div class="left d-flex align-center">
@@ -192,9 +194,7 @@
                   <p class="date">Oct 03, 12:30 PM</p>
                 </div>
               </div>
-              <div class="fl-status bo-prog">
-                <h6>In Progress</h6>
-              </div>
+              <div class="status"><i class="bi bi-circle-half in-progress"></i></div>
             </div>
             <div class="fl-wrapper fo-flx-js-sb bo-bottom">
               <div class="left d-flex align-center">
@@ -204,9 +204,7 @@
                   <p class="date">Oct 03, 12:30 PM</p>
                 </div>
               </div>
-              <div class="fl-status bo-prim">
-                <h6>Open</h6>
-              </div>
+              <div class="status"><i class="bi bi-check-circle-fill completed"></i></div>
             </div>
             <div class="fl-wrapper fo-flx-js-sb bo-bottom">
               <div class="left d-flex align-center">
@@ -216,9 +214,7 @@
                   <p class="date">Oct 03, 12:30 PM</p>
                 </div>
               </div>
-              <div class="fl-status bo-prog">
-                <h6>In Progress</h6>
-              </div>
+              <div class="status"><i class="bi bi-circle-half in-progress"></i></div>
             </div>
             <div class="fl-wrapper fo-flx-js-sb bo-bottom">
               <div class="left d-flex align-center">
@@ -228,33 +224,17 @@
                   <p class="date">Oct 03, 12:30 PM</p>
                 </div>
               </div>
-              <div class="fl-status bo-prim">
-                <h6>Open</h6>
-              </div>
+              <div class="status"><i class="bi bi-circle open"></i></div>
             </div>
             <div class="fl-wrapper fo-flx-js-sb bo-bottom">
               <div class="left d-flex align-center">
 
                 <div class="static-wi">
-                  <p>Lorem Ipsum try...</p>
+                  <p>Lorem Ipsum has been the industry...</p>
                   <p class="date">Oct 03, 12:30 PM</p>
                 </div>
               </div>
-              <div class="fl-status bo-prog">
-                <h6>In Progress</h6>
-              </div>
-            </div>
-            <div class="fl-wrapper fo-flx-js-sb bo-bottom">
-              <div class="left d-flex align-center">
-
-                <div class="static-wi">
-                  <p>Lorem Ipsum try...</p>
-                  <p class="date">Oct 03, 12:30 PM</p>
-                </div>
-              </div>
-              <div class="fl-status bo-prog">
-                <h6>In Progress</h6>
-              </div>
+              <div class="status"><i class="bi bi-circle open"></i></div>
             </div>
           </div>
         </div>
@@ -266,8 +246,8 @@
 
           </div>
 
-          <div class="followup-wrapper mt-3 st-height">
-            Place holder for chart
+          <div class="followup-wrapper mt-3 st-height chart">
+          <div id="chart-container">FusionCharts XT will load here!</div>
           </div>
         </div>
       </div>
