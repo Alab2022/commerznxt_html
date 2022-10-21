@@ -966,6 +966,26 @@ input[type="checkbox"]:checked + label:after {
 .db-top-wrapper .left h6{
   margin-bottom: 0px!important;
 }
+/* svg > g:nth-child(2)[class^="raphael-group-"] > g{
+  display: none;
+} */
+svg g:nth-child(4){
+  display: none;
+}
+.st-height.chart {
+  padding-right: 5px;
+  height: 348px;
+  max-height: 100%;
+  overflow: auto;
+  /* min-height: 350px; */
+  overflow: hidden;
+  text-align: center;
+}
+
+g.raphael-group-55-pie-label text{
+  fill: #fff;
+}
+
 
 /* --------------------------Media Query Portrait --------------------------*/
 

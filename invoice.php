@@ -41,17 +41,15 @@
       <div class="card custom-list">
         <div>
           <div class="quote-message bo-primary">
-            <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+            
 
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="form-check mt-4">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-            <label class="form-check-label" for="flexCheckDefault1">
-              Generate Invoice
-            </label>
+          <div class="mt-4">
+           
+            <button class="btn btn-light btn-sm"><i class="bi bi-file-earmark-pdf-fill pdf"></i> View PDF</button>
           </div>
         </div>
 

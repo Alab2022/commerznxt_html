@@ -34,7 +34,7 @@
 											<div class="list-wrapper">
                                             <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore</p>
 											</div>
-                                            <button class="btn btn-light btn-sm"><i class="bi bi-pencil-fill"></i></button>
+                                            <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-pencil-fill"></i></button>
 										</div>
 									</div>
 								</div>

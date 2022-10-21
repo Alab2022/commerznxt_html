@@ -87,37 +87,37 @@ FusionCharts.ready(function(){
   var chartObj = new FusionCharts({
 type: 'doughnut2d',
 renderAt: 'chart-container',
-width: '400',
-height: '400',
+width: '360',
+height: '340',
 dataFormat: 'json',
 dataSource: {
     "chart": {
-        "caption": "Split of Revenue by Product Categories",
-        "subCaption": "Last year",
-        "numberPrefix": "$",
+      "baseFont": "Verdana",
+    "baseFontSize": "15",
+    "baseFontColor": "#ffffff",
+    "outCnvBaseFontColor": "#fff",
+        "numberPrefix": "",
+        "labelFontBold": "1",
         "bgColor": "#ffffff",
         "startingAngle": "310",
         "showLegend": "1",
-        "defaultCenterLabel": "Total revenue: $64.08K",
-        "centerLabel": "Revenue from $label: $value",
+        "defaultCenterLabel": "Total Customers: 100",
+        "centerLabel": "Customers $label: $value",
         "centerLabelBold": "1",
         "showTooltip": "0",
         "decimals": "0",
         "theme": "fusion",
-        "valuePosition":"inside"
+        "valuePosition":"inside",
+        "labelPosition":"inside",
+        "showlabels": "0",
+        "palettecolors": "98B694,63719C"
     },
     "data": [{
-        "label": "Food",
-        "value": "28504"
+        "label": "Last Month",
+        "value": "30"
     }, {
-        "label": "Apparels",
-        "value": "14633"
-    }, {
-        "label": "Electronics",
-        "value": "10507"
-    }, {
-        "label": "Household",
-        "value": "4910"
+        "label": "This Month",
+        "value": "70"
     }]
 }
 }
