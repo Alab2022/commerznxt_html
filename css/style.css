@@ -220,7 +220,7 @@ h5 {
 }
 
 .remove-bo {
-  border: none !important;
+  border-bottom: none !important;
 }
 
 .alert p {
@@ -1406,10 +1406,84 @@ td i.bi.bi-eye-fill {
 }
 /* Dashboard SE CSS Ends here////////////////////////////////////////////////////////////////////////// */
 
-/* Quotes CSS Starts here */
+/* outer pages CSS Starts here ///////////////////////////////////////////////////////////////////////////////////////*/
 
 .filter-bg {
   background: #EFF2F6 !important;
   color: #63719C;
-  border-radius: 50px;
 }
+.filter-bg:hover {
+  background: #63719C !important;
+}
+.fl-dd {
+  background: none !IMPORTANT;
+  border: 1px solid #DBDBDB !important;
+  padding: 6px 25px !important;
+  color: #B8B8B8;
+}
+.offcanvas-body .date-picker input#birthday {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-shadow: 0 0.1rem 0.1rem rgb(0 0 0 / 4%) !important;
+}
+.offcanvas-footer.fil-pd {
+  text-align: right;
+  padding-right: 24px;
+}
+.sec-custom{
+  background-color: #9A9A9A !important;
+}
+.detail-pg {
+  background: #63719C !important;
+}
+button.btn.btn-primary.ms-2.bg-drk-blue img {
+  width: 16px;
+  margin-top: -3px;
+}
+.right h6 {
+  margin-bottom: 0;
+}
+.bg-tb-bottom tbody tr:nth-child(even) {
+  background: none;
+}
+.bg-tb-bottom tbody tr {
+  border-bottom: 1px solid #C2E1E1;
+}
+.bg-tb-bottom tbody tr:last-child {
+  border-bottom: none;
+}
+.detail-vw-wi {
+  width: 850px;
+  margin: auto;
+}
+.cus-wi{
+  width: 100% !important;
+}
+.outer-wi {
+  width: 100%;
+}
+.outer-wi .profile-sec{
+  text-align: center;
+}
+.outer-wi .profile-sec img {
+  width: 135px !important;
+  margin-right: 0 !important;
+  margin-bottom: 20px;
+}
+.left.outer-wi .casualities p, h4 {
+  text-align: left;
+}
+.left.outer-wi .casualities h4{
+color:#363636;
+font-size: 14px;
+font-weight: 600;
+}
+.detail-vw-wi .fo-flx-right {
+  white-space: nowrap;
+}
+.crm.custom .content {
+  text-align: left;
+}
+
+/* outer pages CSS ends here ///////////////////////////////////////////////////////////////////////////////////////*/

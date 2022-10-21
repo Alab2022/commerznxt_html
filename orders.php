@@ -3,7 +3,7 @@
 <div class="container-fluid remove-margin bg-white">
   <div class="db-top-wrapper">
     <div class="left">
-      <h4>My Task</h4>
+      <h4>Orders</h4>
       <ul class="breadcrumb">
         <li><a href="#">Dashboard</a></li>
         <li><a href="#">Task</a></li>
@@ -35,103 +35,87 @@
   </div>
 </div>
 <div class="container-fluid page-inner">
-  <div class="row">
+<div class="card card-pd">
+          <!-- <div class="crm-cd-header fo-flx-center remove-padding mb-3">
+            <h4>Orders List <span>06</span></h4>
+            <div class="d-flex align-center">
+              <h6>Show</h6>
+              <div class="form-group ms-2">
 
-    <div class="col-md-3">
-      <div class="card custom-list">
-        <div>
-          <div class="quote-message bo-primary">
-            <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
+                <div class="dropdown">
+                  <span><i class="bi bi-chevron-down"></i></span>
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    50
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">10</a></li>
+                    <li><a class="dropdown-item" href="#">20</a></li>
+                    <li><a class="dropdown-item" href="#">30</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="inner-addon right-addon search_md ms-2">
+                <i class="bi bi-search"></i>
+                <input type="text" class="form-control" placeholder="Search" />
+              </div>
 
+            </div>
+          </div> -->
+          <div class="card-body remove-padding">
+          <div class="table-wrapper">
+                    <table id="tb-border-radius" class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Order ID</th>
+                          <th>Date</th>
+                          <th>Order Total</th>
+                          <th>Status</th>
+                          <th>Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>#009-01</td>
+                          <td>08 Oct 2022 $ </td>
+                          <td>$5000</td>
+                          <td>-</td>
+                          <td><a href="order-view.php"><i class="bi bi-eye-fill"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>#009-01</td>
+                          <td>08 Oct 2022 $ </td>
+                          <td>$5000</td>
+                          <td class="text-primary">Waiting for Approval </td>
+                          <td><i class="bi bi-eye-fill"></i></td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+                  </div>
+
+            <div class="fo-flx-center">
+              <h6>Showing 50 of 200</h6>
+              <nav aria-label="Page navigation example">
+
+                <ul class="pagination justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link"> <span><i class="bi bi-chevron-left"></i></span> Previous</a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next <span><i class="bi bi-chevron-right"></i></span></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
-          <h1 class="big-total"> €4,275 </h1>
-          <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
         </div>
-
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="card custom-list">
-        <div>
-          <div class="quote-message bo-success">
-            <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
-
-          </div>
-          <h1 class="big-total"> €4,275 </h1>
-          <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <a href="quotes-view.php" class="btn btn-light btn-sm"><i class="bi bi-eye-fill"></i> View </a>
-        </div>
-
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card custom-list">
-        <div>
-          <div class="quote-message bo-hold">
-            <p> <i class="bi bi-hourglass-top"></i> Hold</p>
-
-          </div>
-          <h1 class="big-total"> €4,275 </h1>
-          <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-        </div>
-
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card custom-list">
-        <div>
-          <div class="quote-message bo-primary">
-            <p> <i class="bi bi-hourglass-top"></i> Waiting for Approval</p>
-
-          </div>
-          <h1 class="big-total"> €4,275 </h1>
-          <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="card custom-list">
-        <div>
-          <div class="quote-message bo-success">
-            <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
-
-          </div>
-          <h1 class="big-total"> €4,275 </h1>
-          <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-        </div>
-
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card custom-list">
-        <div>
-          <div class="quote-message bo-hold">
-            <p> <i class="bi bi-hourglass-top"></i> Hold</p>
-
-          </div>
-          <h1 class="big-total"> €4,275 </h1>
-          <p> <strong> Id: </strong> COMNXT-Q-01 </p>
-          <div class="flag_general mt-4 me-2">Qty: 100</div>
-          <button class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#addTask"><i class="bi bi-eye-fill"></i> View </button>
-        </div>
-
-      </div>
-    </div>
-
-
-  </div>
 
   <!-- create user offcanvas -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
