@@ -1,267 +1,126 @@
-// Data retrieved from https://www.ssb.no/statbank/table/10467/
-var chart = Highcharts.chart('chartcon', {
+// var data = {
+//     datasets: [{
+//         data: [
+//             11,
+//             16,
+//             7,
+//             3,
+//             14
+//         ],
+//         backgroundColor: [
+//             "#FF6384",
+//             "#4BC0C0",
+//             "#FFCE56",
+//             "#E7E9ED",
+//             "#36A2EB"
+//         ],
+//         label: 'My dataset' // for legend
+//     }],
+//     labels: [
+//         "Red",
+//         "Green",
+//         "Yellow",
+//         "Grey",
+//         "Blue"
+//     ]
+// };
 
-    chart: {
-      type: 'column'
+// var pieOptions = {
+//   doughnutlabel: {
+//     labels: [{
+//       text: '550',
+//       font: {
+//         size: 20,
+//         weight: 'bold'
+//       }
+//     }, {
+//       text: 'total'
+//     }]
+//   },
+//   events: false,
+//   animation: {
+//     duration: 500,
+//     easing: "easeOutQuart",
+//     onComplete: function () {
+//       var ctx = this.chart.ctx;
+//       ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontFamily, 'normal', Chart.defaults.global.defaultFontFamily);
+//       ctx.textAlign = 'center';
+//       ctx.textBaseline = 'bottom';
+
+//       this.data.datasets.forEach(function (dataset) {
+
+//         for (var i = 0; i < dataset.data.length; i++) {
+//           var model = dataset._meta[Object.keys(dataset._meta)[0]].data[i]._model,
+//               total = dataset._meta[Object.keys(dataset._meta)[0]].total,
+//               mid_radius = model.innerRadius + (model.outerRadius - model.innerRadius)/2,
+//               start_angle = model.startAngle,
+//               end_angle = model.endAngle,
+//               mid_angle = start_angle + (end_angle - start_angle)/2;
+
+//           var x = mid_radius * Math.cos(mid_angle);
+//           var y = mid_radius * Math.sin(mid_angle);
+
+//           ctx.font = "30px Arial";
+//           ctx.fillStyle = '#fff';
+//           if (i == 3){ // Darker text color for lighter background
+//             ctx.fillStyle = '#444';
+//           }
+//           var percent = String(Math.round(dataset.data[i]/total*100)) + "%";
+//           // var count = dataset.data[i];
+//           ctx.fillText(dataset.data[i], model.x + x, model.y + y);
+//           // Display percent in another line, line break doesn't work for fillText
+//           ctx.fillText(percent, model.x + x, model.y + y + 15);
+//         }
+//       });               
+//     }
+//   }
+// };
+
+// var pieChartCanvas = $("#pieChart");
+// var pieChart = new Chart(pieChartCanvas, {
+//   type: 'doughnut', // or doughnut
+//   data: data,
+//   options: pieOptions
+// });
+
+FusionCharts.ready(function(){
+  var chartObj = new FusionCharts({
+type: 'doughnut2d',
+renderAt: 'chart-container',
+width: '400',
+height: '400',
+dataFormat: 'json',
+dataSource: {
+    "chart": {
+        "caption": "Split of Revenue by Product Categories",
+        "subCaption": "Last year",
+        "numberPrefix": "$",
+        "bgColor": "#ffffff",
+        "startingAngle": "310",
+        "showLegend": "1",
+        "defaultCenterLabel": "Total revenue: $64.08K",
+        "centerLabel": "Revenue from $label: $value",
+        "centerLabelBold": "1",
+        "showTooltip": "0",
+        "decimals": "0",
+        "theme": "fusion",
+        "valuePosition":"inside"
     },
-  
-    title: {
-      text: ''
-    },
-  
-    subtitle: {
-      text: 'Resize the frame or click buttons to change appearance'
-    },
-  
-    legend: {
-      align: 'right',
-      verticalAlign: 'middle',
-      layout: 'vertical'
-    },
-  
-    xAxis: {
-      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
-      labels: {
-        x: -10,
-        rotation: -45,
-      }
-    },
-  
-    yAxis: {
-      allowDecimals: false,
-      title: {
-        text: 'Amount'
-      }
-    },
-  
-    series: [{
-      name: '2021',
-      data: [38, 51, 34, 38, 51, 38, 51, 38],
-      dataLabels: {
-        enabled: true,
-        rotation: -90,
-        color: '#FFFFFF',
-        align: 'right',
-        format: '{point.y:.1f}', // one decimal
-        y: 10, // 10 pixels down from the top
-        style: {
-          fontSize: '13px',
-          fontFamily: 'Verdana, sans-serif'
-        }
-      },
-      colors : ['#63719C'],
+    "data": [{
+        "label": "Food",
+        "value": "28504"
     }, {
-      name: '2022',
-      data: [31, 26, 27, 31, 26, 31, 26, 31],
-      dataLabels: {
-        enabled: true,
-        rotation: -90,
-        color: '#FFFFFF',
-        align: 'right',
-        format: '{point.y:.1f}', // one decimal
-        y: 10, // 10 pixels down from the top
-        style: {
-          fontSize: '13px',
-          fontFamily: 'Verdana, sans-serif'
-        }
-      },
-      colors : ['#FC8B2A'],
-    }],
-    plotOptions: {
-        column: {
-         colorByPoint: true,
-
-        }
-      },
-      
-  
-    responsive: {
-      rules: [{
-        condition: {
-          maxWidth: 360
-        },
-        chartOptions: {
-          legend: {
-            align: 'center',
-            verticalAlign: 'bottom',
-            layout: 'horizontal'
-          },
-          yAxis: {
-            labels: {
-              align: 'left',
-              x: 0,
-              y: 0
-            },
-            title: {
-              text: null
-            }
-          },
-          subtitle: {
-            text: null
-          },
-          credits: {
-            enabled: false
-          }
-        }
-      }]
-    }
-  });
-  
-//   document.getElementById('small').addEventListener('click', function () {
-//     chart.setSize(400);
-//   });
-  
-//   document.getElementById('large').addEventListener('click', function () {
-//     chart.setSize(600);
-//   });
-  
-//   document.getElementById('auto').addEventListener('click', function () {
-//     chart.setSize(null);
-//   });
-
-
-/**
- * Create a constructor for sparklines that takes some sensible defaults and merges in the individual
- * chart options. This function is also available from the jQuery plugin as $(element).highcharts('SparkLine').
- */
- Highcharts.SparkLine = function (a, b, c) {
-    const hasRenderToArg = typeof a === 'string' || a.nodeName;
-    let options = arguments[hasRenderToArg ? 1 : 0];
-    const defaultOptions = {
-      chart: {
-        renderTo: (options.chart && options.chart.renderTo) || (hasRenderToArg && a),
-        backgroundColor: null,
-        borderWidth: 0,
-        type: 'area',
-        margin: [2, 0, 2, 0],
-        width: 120,
-        height: 20,
-        style: {
-          overflow: 'visible'
-        },
-        // small optimalization, saves 1-2 ms each sparkline
-        skipClone: true
-      },
-      title: {
-        text: ''
-      },
-      credits: {
-        enabled: false
-      },
-      xAxis: {
-        labels: {
-          enabled: false
-        },
-        title: {
-          text: null
-        },
-        startOnTick: false,
-        endOnTick: false,
-        tickPositions: []
-      },
-      yAxis: {
-        endOnTick: false,
-        startOnTick: false,
-        labels: {
-          enabled: false
-        },
-        title: {
-          text: null
-        },
-        tickPositions: [0]
-      },
-      legend: {
-        enabled: false
-      },
-      tooltip: {
-        hideDelay: 0,
-        outside: true,
-        shared: true
-      },
-      plotOptions: {
-        series: {
-          animation: false,
-          lineWidth: 1,
-          shadow: false,
-          states: {
-            hover: {
-              lineWidth: 1
-            }
-          },
-          marker: {
-            radius: 1,
-            states: {
-              hover: {
-                radius: 2
-              }
-            }
-          },
-          fillOpacity: 0.25
-        },
-        column: {
-          negativeColor: '#910000',
-          borderColor: 'silver'
-        }
-      }
-    };
-  
-    options = Highcharts.merge(defaultOptions, options);
-  
-    return hasRenderToArg ?
-      new Highcharts.Chart(a, options, c) :
-      new Highcharts.Chart(options, b);
-  };
-  
-  const start = +new Date(),
-    tds = Array.from(document.querySelectorAll('td[data-sparkline]')),
-    fullLen = tds.length;
-  
-  let n = 0;
-  
-  // Creating 153 sparkline charts is quite fast in modern browsers, but IE8 and mobile
-  // can take some seconds, so we split the input into chunks and apply them in timeouts
-  // in order avoid locking up the browser process and allow interaction.
-  function doChunk() {
-    const time = +new Date(),
-      len = tds.length;
-  
-    for (let i = 0; i < len; i += 1) {
-      const td = tds[i];
-      const stringdata = td.dataset.sparkline;
-      const arr = stringdata.split('; ');
-      const data = arr[0].split(', ').map(parseFloat);
-      const chart = {};
-  
-      if (arr[1]) {
-        chart.type = arr[1];
-      }
-  
-      Highcharts.SparkLine(td, {
-        series: [{
-          data: data,
-          pointStart: 1
-        }],
-        tooltip: {
-          headerFormat: '<span style="font-size: 10px">' + td.parentElement.querySelector('th').innerText + ', Q{point.x}:</span><br/>',
-          pointFormat: '<b>{point.y}.000</b> USD'
-        },
-        chart: chart
-      });
-  
-      n += 1;
-  
-      // If the process takes too much time, run a timeout to allow interaction with the browser
-      if (new Date() - time > 500) {
-        tds.splice(0, i + 1);
-        setTimeout(doChunk, 0);
-        break;
-      }
-  
-      // Print a feedback on the performance
-      if (n === fullLen) {
-        document.getElementById('result').innerHTML = 'Generated ' + fullLen + ' sparklines in ' + (new Date() - start) + ' ms';
-      }
-    }
-  }
-  doChunk();
-  
+        "label": "Apparels",
+        "value": "14633"
+    }, {
+        "label": "Electronics",
+        "value": "10507"
+    }, {
+        "label": "Household",
+        "value": "4910"
+    }]
+}
+}
+);
+  chartObj.render();
+});

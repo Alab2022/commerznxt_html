@@ -8,7 +8,7 @@
           </div>
           <div class="content">
             <h3>Welcome Back, Richard Welsh!</h3>
-            <h6>
+            <h6 class="mt-2">
               <span>
                 <img class="min-icon" src="img/date.svg" alt="">
               </span> Today: 10th Oct 2022 <span style="margin-left: 5px;">
@@ -95,7 +95,7 @@
               <div class="followup-wrapper mt-3 st-height">
                 <div class="fl-wrapper fo-flx-js-sb bo-bottom">
                   <div class="left d-flex align-center">
-                    <img src="img/prof-1.png" alt="">
+                    <img src="img/prof-big.png" alt="">
                     <div>
                       <p>Ada Lovelace</p>
                       <p class="price-merun">€10000</p>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="fl-wrapper fo-flx-js-sb bo-bottom">
                   <div class="left d-flex align-center">
-                    <img src="img/prof-1.png" alt="">
+                    <img src="img/prof-big.png" alt="">
                     <div>
                       <p>Ada Lovelace</p>
                       <p class="price-merun">€10000</p>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="fl-wrapper fo-flx-js-sb bo-bottom">
                   <div class="left d-flex align-center">
-                    <img src="img/prof-1.png" alt="">
+                    <img src="img/prof-big.png" alt="">
                     <div>
                       <p>Ada Lovelace</p>
                       <p class="price-merun">€10000</p>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="fl-wrapper fo-flx-js-sb bo-bottom">
                   <div class="left d-flex align-center">
-                    <img src="img/prof-1.png" alt="">
+                    <img src="img/prof-big.png" alt="">
                     <div>
                       <p>Ada Lovelace</p>
                       <p class="price-merun">€10000</p>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="fl-wrapper fo-flx-js-sb ">
                   <div class="left d-flex align-center">
-                    <img src="img/prof-1.png" alt="">
+                    <img src="img/prof-big.png" alt="">
                     <div>
                       <p>Ada Lovelace</p>
                       <p class="price-merun">€10000</p>
@@ -261,9 +261,15 @@
         </div>
         <div class="col-md-4">
           <div class="card card-pd">
-          <div class="card-heading fo-flx-sb-bl">
+          <div class="card-heading">
                 <h4>New Customers</h4>
-                
+                <div class="wrapper">
+                <!-- <canvas id="pieChart" width=200 height=200></canvas> -->
+                <div id="chart-container">FusionCharts XT will load here!</div>
+</div>
+<div class="wrapper2">
+  <!-- <canvas id="chart2" ></canvas> -->
+</div>
               </div>
 
               <div class="followup-wrapper mt-3 st-height">
@@ -376,5 +382,32 @@
     
   </div>
 		</div>
-        
+    <script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Doughnut chart
+			new Chart(document.getElementById("chartjs-doughnut"), {
+				type: "doughnut",
+				data: {
+					labels: ["Social", "Search Engines", "Direct", "Other"],
+					datasets: [{
+						data: [260, 125, 54, 146],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.success,
+							window.theme.warning,
+							"#dee2e6"
+						],
+						borderColor: "transparent"
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					cutoutPercentage: 65,
+					legend: {
+						display: false
+					}
+				}
+			});
+		});
+	</script>
 		<?php include('common/footer.php'); ?>

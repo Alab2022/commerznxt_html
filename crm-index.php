@@ -10,7 +10,7 @@
         <li><a href="#">Customer Status Overview</a></li>
       </ul>
     </div>
-    <div class="right"><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    <div class="right"><a class="btn btn-primary d-sm-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
   Link
 </a></div>
   </div>

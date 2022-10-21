@@ -520,10 +520,11 @@ i.pdf{
 }
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: .45rem;
+  width: .3rem;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(27, 27, 27, .4);
+  background-color: rgba(99, 113, 156, .4); 
+  /* background-color: rgba(252, 139, 42, .4); */
   border-radius: 3px;
 }
 ::-webkit-scrollbar-track{
@@ -962,7 +963,9 @@ input[type="checkbox"]:checked + label:after {
 .quote-message p{
   margin-bottom: 0;
 }
-
+.db-top-wrapper .left h6{
+  margin-bottom: 0px!important;
+}
 
 /* --------------------------Media Query Portrait --------------------------*/
 

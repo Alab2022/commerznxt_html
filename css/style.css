@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 
 :root {
@@ -505,7 +505,7 @@ ul.dropdown-menu.show li:last-child {
 }
 
 .db-top-wrapper {
-  padding: 20px 0 10px;
+  padding: 15px 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -517,7 +517,7 @@ ul.dropdown-menu.show li:last-child {
 }
 
 .db-top-wrapper .left .content h3 {
-  font-size: 20px !important;
+  font-size: 24px !important;
   font-weight: 700;
   color: #4A4A4A;
   margin: 0;
@@ -623,15 +623,15 @@ ul.breadcrumb li a:hover {
 }
 
 .db-content-top .card .content h3 {
-    color: #4a4a4a;
+    color: #606161;
     margin: 0;
     font-size: 28px;
-    margin-bottom: 8px;
+    font-weight: 800;
 }
 
 .db-content-top .card .content h6 {
     margin: 0;
-    font-size: 13px !important;
+    font-size: 16px !important;
 }
 
 .db-content-top {
@@ -1329,6 +1329,7 @@ color: #BC7D85 !important;
 }
 .fl-wrapper .right h1 {
   font-size: 28px;
+  font-weight: 700;
 }
 .fl-wrapper .right p {
   font-size: 13px !important;
