@@ -70,7 +70,9 @@
           <h6>Task</h6>
         </div>
       </div>
-      <div class="card card-pd fo-flx">
+      <div class="card">
+        <a href="payments.php" class="card-pd">
+          <div class="fo-flx ">
         <div class="icon-wrap greenishblue">
           <img src="img/db5.svg" alt="">
         </div>
@@ -78,6 +80,8 @@
           <h3>1M</h3>
           <h6>Payment</h6>
         </div>
+        </div>
+        </a>
       </div>
     </div>
 

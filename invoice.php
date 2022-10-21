@@ -40,16 +40,26 @@
     <div class="col-md-3">
       <div class="card custom-list">
         <div>
-          <div class="quote-message bo-primary">
-            
+        <div class="quote-message bo-success">
+            <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
 
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="mt-4">
-           
-            <button class="btn btn-light btn-sm"><i class="bi bi-file-earmark-pdf-fill pdf"></i> View PDF</button>
+          <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                  <button class="btn btn-light btn-sm"><i class="bi bi-file-earmark-pdf-fill pdf"></i></button>
+          </div>                  
           </div>
         </div>
 
@@ -65,11 +75,22 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="form-check mt-4">
+          
+          <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
             <label class="form-check-label" for="flexCheckDefault2">
-              Generate Invoice
             </label>
+          </div>                  
           </div>
         </div>
 
@@ -85,11 +106,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="form-check mt-4">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-            <label class="form-check-label" for="flexCheckDefault3">
-              Generate Invoice
+          <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
             </label>
+          </div>                  
           </div>
         </div>
 
@@ -105,11 +136,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="form-check mt-4">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-            <label class="form-check-label" for="flexCheckDefault4">
-              Generate Invoice
+          <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
             </label>
+          </div>                  
           </div>
         </div>
 
@@ -125,11 +166,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="form-check mt-4">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
-            <label class="form-check-label" for="flexCheckDefault5">
-              Generate Invoice
+          <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
             </label>
+          </div>                  
           </div>
         </div>
 
@@ -145,11 +196,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="form-check mt-4">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
-            <label class="form-check-label" for="flexCheckDefault6">
-              Generate Invoice
+          <div class="d-flex card-botm">          
+          <div class="d-flex">
+                    <div class="avatar-wrapper">
+                      <img src="img/faces/face23.jpg" class="avatar-med">
+                    </div>
+                    <div>
+                      <h4 class="cont-name-sml">Amelia</h4>
+                      <h4 class="cont-desc-sml">Customer</h4>
+                    </div>
+                  </div>
+                  <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+            <label class="form-check-label" for="flexCheckDefault2">
             </label>
+          </div>                  
           </div>
         </div>
 

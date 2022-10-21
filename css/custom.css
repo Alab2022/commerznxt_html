@@ -57,6 +57,7 @@ body {
 
 body.inner {
   background-color: var(--body-background) !important;
+  padding-bottom: 30px;
 }
 
 .nav-tabs.page-nav {
@@ -226,6 +227,7 @@ ul.cont-list li a i {
   align-items: center;
   padding: 4px 15px;
   font-weight: 600;
+  font-size: 15px;
 }
 .nav-pills.custom .nav-link:hover {
   background: #ced6df;
@@ -276,7 +278,7 @@ ul.cont-list li a i {
 .card {
   background: #fff;
   border-width: 0;
-  border-radius: .25rem;
+  border-radius:.8rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / 9%);
   margin-bottom: 1.5rem
 }
@@ -552,7 +554,7 @@ i.pdf{
     background-position: center;
 }
 .card-pad-avatar {
-  padding: 25px 23px;
+  padding: 30px 30px;
 }
 .profile-upload .prof-ess i {
   font-size: 22px;
@@ -738,10 +740,10 @@ h6 strong{
   height: 20px;
 }
 
-#table-sparkline thead th {
+/* #table-sparkline thead th {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-}
+} */
 
 .highcharts-tooltip > span {
   background: white;
@@ -986,7 +988,31 @@ g.raphael-group-55-pie-label text{
   fill: #fff;
 }
 
-
+.card-body {
+  padding: 1.5rem;
+}
+.casualities{
+  margin-top: 20px;
+}
+.card-botm{
+      justify-content: space-between;
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+    margin: 0px -25px -25px;
+    padding: 10px 20px 20px;
+    background: #fbfbfb;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+}
+.card-botm .form-check label{
+  margin-right: 0;
+}
+.st-height-customer{
+  height: calc(100vh - 140px);
+  overflow: auto;
+  min-height: 400px;
+  padding-right: 10px;
+}
 /* --------------------------Media Query Portrait --------------------------*/
 
 /* // Medium devices (tablets, 768px and up) */
