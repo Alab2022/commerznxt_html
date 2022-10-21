@@ -19,7 +19,7 @@
 </div>
 <div class="container-fluid page-inner">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="card sticky">
         <div class="card-body">
           <div class="d-flex radio-custom">
@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-9">
       <div class="card remove-padding">
         <!-- <div class="crm-cd-header fo-flx-center ">
                   <h4>Quote Detail View </h4>

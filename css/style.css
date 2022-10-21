@@ -1466,6 +1466,9 @@ button.btn.btn-primary.ms-2.bg-drk-blue img {
 .outer-wi .profile-sec{
   text-align: center;
 }
+.outer-wi .content{
+  text-align: center;
+}
 .outer-wi .profile-sec img {
   width: 135px !important;
   margin-right: 0 !important;
@@ -1485,5 +1488,17 @@ font-weight: 600;
 .crm.custom .content {
   text-align: left;
 }
-
+input {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  color: #AEAEAE !important;
+}
+.custom-form input {
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+}
+.custom-form .form input {
+  background: #ececec;
+}
 /* outer pages CSS ends here ///////////////////////////////////////////////////////////////////////////////////////*/
