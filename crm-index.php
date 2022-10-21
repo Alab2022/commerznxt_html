@@ -468,7 +468,7 @@
 
                     <div class="button-wrapper mt-3 fo-flx-right align-center">
                       <h6>attachments if any <span><i class="bi bi-paperclip"></i></span></h6>
-                      <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
+                      <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
                       <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                     </div>
                   </div>
@@ -707,7 +707,7 @@
                           <i class="bi bi-image-fill mr1"></i>
                           <i class="bi bi-paperclip"></i>
                         </div>
-                        <button type="button" class="btn btn-secondary mr1 btn-sm">Send</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Send</button>
                       </div>
                     </div>
                   </div>
@@ -987,8 +987,8 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
@@ -1085,8 +1085,8 @@
 
                       <h6 class="text-primary">Waiting for Approval</h6>
                     </div>
-                    <button type="button" class="btn btn-secondary mr1">Create</button>
-                    <button type="button" class="btn btn-secondary-light">Edit</button>
+                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Edit</button>
                   </div>
 
 
@@ -1218,8 +1218,8 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
@@ -1472,7 +1472,7 @@
                   <div class="button-wrapper mt-3 fo-flx-right align-center">
 
 
-                    <button type="button" class="btn btn-secondary-light">Edit</button>
+                    <button type="button" class="btn btn-secondary-light btn-sm">Edit</button>
                   </div>
 
 
@@ -1480,7 +1480,7 @@
                 <div class="divider w-100 remove-padding"></div>
                 <div class="card-body fo-padding">
 
-                  <div class="brand-wrapper fo-flx-bottom">
+                  <div class="brand-wrapper fo-flx-center">
                     <div class="left fo-flx-top">
                       <div class="img-sec mr3">
                         <img src="img/br1.png" alt="">
@@ -1497,9 +1497,9 @@
                         </div>
                       </div>
                     </div>
-                    <div class="right">
-                      <div class="details inv-detail-fl-right">
-                        <div class="fo-flx-right">
+                    <div class="right align-right">
+                      <div class="details">
+                        <div class="fo-flx-right mb-3">
                           <h6 class="st-wi mr2">ORDER NO </h6>
                           <h6>#009-01</h6>
                         </div>
@@ -1632,9 +1632,9 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1 btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cr" aria-controls="offcanvasRight-cr">View Payment Plan</button>
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Create Payment Paln</button>
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cr" aria-controls="offcanvasRight-cr">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cr" aria-controls="offcanvasRight-cr">Create Payment Paln</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>
@@ -1939,9 +1939,9 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1">View Payment Plan</button>
-                    <button type="button" class="btn btn-secondary mr1">Create Payment Paln</button>
-                    <button type="button" class="btn btn-secondary mr1">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary mr0-5">View Payment Plan</button>
+                    <button type="button" class="btn btn-secondary mr0-5">Create Payment Paln</button>
+                    <button type="button" class="btn btn-secondary mr0-5">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light">Save</button>
                   </div>
                 </div>
@@ -2173,10 +2173,11 @@
           </div>
 
         </div>
-        <div class="offcanvas-footer align-right">
+      </div>
+        <div class="offcanvas-footer fil-pd">
 
-          <button type="button" class="btn btn-primary ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Save</button>
-        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Save</button>
+      </div>
       </div>
 
     </div>
