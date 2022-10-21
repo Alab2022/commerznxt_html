@@ -34,7 +34,13 @@
   <div class="inner-page">
 
     <div class="db-content-top fo-flx-js-sb cd-fl-dr remove-margin">
-      <div class="card card-pd fo-flx">
+
+
+    
+
+      <div class="card ">
+      <a href="orders.php" class="card-pd">
+<div class="fo-flx">
         <div class="icon-wrap orange">
           <img src="img/db1.svg" alt="">
         </div>
@@ -42,8 +48,14 @@
           <h3>336</h3>
           <h6>My Orders</h6>
         </div>
+        </div>
+      </a>
       </div>
-      <div class="card card-pd fo-flx">
+
+
+      <div class="card">
+      <a href="quotes.php" class="card-pd">
+        <div class="fo-flx">
         <div class="icon-wrap merun">
           <img src="img/db2.svg" alt="">
         </div>
@@ -51,8 +63,12 @@
           <h3>38K</h3>
           <h6>Quote</h6>
         </div>
+        </div>
+      </a>
       </div>
-      <div class="card card-pd fo-flx">
+      <div class="card">
+      <a href="invoice.php" class="card-pd">
+        <div class="fo-flx">
         <div class="icon-wrap fadeblue">
           <img src="img/invoice.svg" alt="">
         </div>
@@ -60,8 +76,12 @@
           <h3>4.5M</h3>
           <h6>Invoice</h6>
         </div>
+        </div>
+      </a>
       </div>
-      <div class="card card-pd fo-flx">
+      <div class="card">
+      <a href="task.php" class="card-pd">
+        <div class="fo-flx">
         <div class="icon-wrap solidblue">
           <img src="img/task.svg" alt="">
         </div>
@@ -69,6 +89,8 @@
           <h3>2.1M</h3>
           <h6>Task</h6>
         </div>
+        </div>
+      </a>
       </div>
       <div class="card">
         <a href="payments.php" class="card-pd">
@@ -254,7 +276,7 @@
 
       <div class="col-md-12">
         <div class="card card-pd">
-          <div class="crm-cd-header fo-flx-center remove-padding mb-3">
+          <div class="crm-cd-header fo-flx-center remove-padding mb-3 remove-bckg">
             <h4>Approval Status</h4>
             <div class="d-flex align-center">
               <h6>Show</h6>

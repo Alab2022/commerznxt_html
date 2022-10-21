@@ -23,7 +23,7 @@
     <div class="divider w-100 remove-padding"></div>
     <div class="card-body fo-padding">
 
-      <div class="brand-wrapper fo-flx-bottom">
+      <div class="brand-wrapper fo-flx-center">
         <div class="left fo-flx-top">
           <div class="img-sec mr3">
             <img src="img/br1.png" alt="">
@@ -40,9 +40,9 @@
             </div>
           </div>
         </div>
-        <div class="right">
-          <div class="details inv-detail-fl-right">
-            <div class="fo-flx-right">
+        <div class="right align-right">
+          <div class="details">
+            <div class="fo-flx-right mb-3">
               <h6 class="st-wi mr2">ORDER NO </h6>
               <h6>#009-01</h6>
             </div>

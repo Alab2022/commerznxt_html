@@ -3,7 +3,7 @@
 <div class="container-fluid remove-margin bg-white">
   <div class="db-top-wrapper">
     <div class="left">
-      <h4>My Task</h4>
+      <h4>Quotes</h4>
       <ul class="breadcrumb">
         <li><a href="#">Dashboard</a></li>
         <li><a href="#">Task</a></li>
@@ -140,8 +140,9 @@
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Status</label>
+      <div class="accordion-body">
+      <div class="form-group mb-3">
+        <label for="exampleFormControlTextarea1">Status</label>
         <select class="form-select" aria-label="Default select example">
           <option selected>Open this select menu</option>
           <option value="1">One</option>
@@ -150,7 +151,7 @@
         </select>
       </div>
 
-      <div class="mb-3">
+      <div class="form-group mb-3">
         <div class="date-picker">
           <label for="">Date</label>
           <form action="/action_page.php">
@@ -158,7 +159,7 @@
           </form>
         </div>
       </div>
-      <div class="mb-3">
+      <div class="form-group mb-3">
         <label for="">User Type</label>
         <div class="d-flex radio-custom mt-3">
           <div class="form-check me-3 ">
@@ -175,7 +176,7 @@
           </div>
         </div>
       </div>
-      <div class="mb-3">
+      <div class="form-group mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Country</label>
         <select class="form-select" aria-label="Default select example">
           <option selected>Open this select menu</option>
@@ -184,7 +185,7 @@
           <option value="3">Three</option>
         </select>
       </div>
-      <div class="mb-3">
+      <div class="form-group mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">State/Provice</label>
         <select class="form-select" aria-label="Default select example">
           <option selected>Open this select menu</option>
@@ -193,7 +194,7 @@
           <option value="3">Three</option>
         </select>
       </div>
-
+    </div>
     </div>
     <div class="offcanvas-footer fil-pd">
       <button type="button" class="btn btn-secondary sec-custom">Clear</button>

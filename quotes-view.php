@@ -147,8 +147,8 @@
                     </div>
                   </div>
                   <div class="button-wrapper align-right mt-3">
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Cancel</button>
-                    <button type="button" class="btn btn-secondary mr1 btn-sm">Save & Send Email</button>
+                    <button type="button" class="btn btn-secondary btn-sm mr0-5">Cancel</button>
+                    <button type="button" class="btn btn-secondary mr0-5 btn-sm">Save & Send Email</button>
                     <button type="button" class="btn btn-secondary-light btn-sm">Save</button>
                   </div>
                 </div>

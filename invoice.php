@@ -40,26 +40,26 @@
     <div class="col-md-3">
       <div class="card custom-list">
         <div>
-        <div class="quote-message bo-success">
+          <div class="quote-message bo-success">
             <p> <i class="bi bi-check-circle-fill"></i> Approved</p>
 
           </div>
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="d-flex card-botm">          
-          <div class="d-flex">
-                    <div class="avatar-wrapper">
-                      <img src="img/faces/face23.jpg" class="avatar-med">
-                    </div>
-                    <div>
-                      <h4 class="cont-name-sml">Amelia</h4>
-                      <h4 class="cont-desc-sml">Customer</h4>
-                    </div>
-                  </div>
-                  <div class="form-check">
-                  <button class="btn btn-light btn-sm"><i class="bi bi-file-earmark-pdf-fill pdf"></i></button>
-          </div>                  
+          <div class="d-flex card-botm">
+            <div class="d-flex">
+              <div class="avatar-wrapper">
+                <img src="img/faces/face23.jpg" class="avatar-med">
+              </div>
+              <div>
+                <h4 class="cont-name-sml">Amelia</h4>
+                <h4 class="cont-desc-sml">Customer</h4>
+              </div>
+            </div>
+            <div class="form-check">
+              <button class="btn btn-light btn-sm"><i class="bi bi-file-earmark-pdf-fill pdf"></i></button>
+            </div>
           </div>
         </div>
 
@@ -75,22 +75,22 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          
-          <div class="d-flex card-botm">          
-          <div class="d-flex">
-                    <div class="avatar-wrapper">
-                      <img src="img/faces/face23.jpg" class="avatar-med">
-                    </div>
-                    <div>
-                      <h4 class="cont-name-sml">Amelia</h4>
-                      <h4 class="cont-desc-sml">Customer</h4>
-                    </div>
-                  </div>
-                  <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-            <label class="form-check-label" for="flexCheckDefault2">
-            </label>
-          </div>                  
+
+          <div class="d-flex card-botm">
+            <div class="d-flex">
+              <div class="avatar-wrapper">
+                <img src="img/faces/face23.jpg" class="avatar-med">
+              </div>
+              <div>
+                <h4 class="cont-name-sml">Amelia</h4>
+                <h4 class="cont-desc-sml">Customer</h4>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+              <label class="form-check-label" for="flexCheckDefault2">
+              </label>
+            </div>
           </div>
         </div>
 
@@ -106,21 +106,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="d-flex card-botm">          
-          <div class="d-flex">
-                    <div class="avatar-wrapper">
-                      <img src="img/faces/face23.jpg" class="avatar-med">
-                    </div>
-                    <div>
-                      <h4 class="cont-name-sml">Amelia</h4>
-                      <h4 class="cont-desc-sml">Customer</h4>
-                    </div>
-                  </div>
-                  <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-            <label class="form-check-label" for="flexCheckDefault2">
-            </label>
-          </div>                  
+          <div class="d-flex card-botm">
+            <div class="d-flex">
+              <div class="avatar-wrapper">
+                <img src="img/faces/face23.jpg" class="avatar-med">
+              </div>
+              <div>
+                <h4 class="cont-name-sml">Amelia</h4>
+                <h4 class="cont-desc-sml">Customer</h4>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+              <label class="form-check-label" for="flexCheckDefault2">
+              </label>
+            </div>
           </div>
         </div>
 
@@ -136,21 +136,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="d-flex card-botm">          
-          <div class="d-flex">
-                    <div class="avatar-wrapper">
-                      <img src="img/faces/face23.jpg" class="avatar-med">
-                    </div>
-                    <div>
-                      <h4 class="cont-name-sml">Amelia</h4>
-                      <h4 class="cont-desc-sml">Customer</h4>
-                    </div>
-                  </div>
-                  <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-            <label class="form-check-label" for="flexCheckDefault2">
-            </label>
-          </div>                  
+          <div class="d-flex card-botm">
+            <div class="d-flex">
+              <div class="avatar-wrapper">
+                <img src="img/faces/face23.jpg" class="avatar-med">
+              </div>
+              <div>
+                <h4 class="cont-name-sml">Amelia</h4>
+                <h4 class="cont-desc-sml">Customer</h4>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+              <label class="form-check-label" for="flexCheckDefault2">
+              </label>
+            </div>
           </div>
         </div>
 
@@ -166,21 +166,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="d-flex card-botm">          
-          <div class="d-flex">
-                    <div class="avatar-wrapper">
-                      <img src="img/faces/face23.jpg" class="avatar-med">
-                    </div>
-                    <div>
-                      <h4 class="cont-name-sml">Amelia</h4>
-                      <h4 class="cont-desc-sml">Customer</h4>
-                    </div>
-                  </div>
-                  <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-            <label class="form-check-label" for="flexCheckDefault2">
-            </label>
-          </div>                  
+          <div class="d-flex card-botm">
+            <div class="d-flex">
+              <div class="avatar-wrapper">
+                <img src="img/faces/face23.jpg" class="avatar-med">
+              </div>
+              <div>
+                <h4 class="cont-name-sml">Amelia</h4>
+                <h4 class="cont-desc-sml">Customer</h4>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+              <label class="form-check-label" for="flexCheckDefault2">
+              </label>
+            </div>
           </div>
         </div>
 
@@ -196,21 +196,21 @@
           <h1 class="big-total"> €4,275 </h1>
           <p> <strong> Id: </strong> COMNXT-Q-01 </p>
 
-          <div class="d-flex card-botm">          
-          <div class="d-flex">
-                    <div class="avatar-wrapper">
-                      <img src="img/faces/face23.jpg" class="avatar-med">
-                    </div>
-                    <div>
-                      <h4 class="cont-name-sml">Amelia</h4>
-                      <h4 class="cont-desc-sml">Customer</h4>
-                    </div>
-                  </div>
-                  <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-            <label class="form-check-label" for="flexCheckDefault2">
-            </label>
-          </div>                  
+          <div class="d-flex card-botm">
+            <div class="d-flex">
+              <div class="avatar-wrapper">
+                <img src="img/faces/face23.jpg" class="avatar-med">
+              </div>
+              <div>
+                <h4 class="cont-name-sml">Amelia</h4>
+                <h4 class="cont-desc-sml">Customer</h4>
+              </div>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+              <label class="form-check-label" for="flexCheckDefault2">
+              </label>
+            </div>
           </div>
         </div>
 
@@ -228,66 +228,67 @@
       <h5 id="offcanvasRightLabel">Choose Filter</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-<div class="offcanvas-body">
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Status</label>
+    <div class="offcanvas-body">
+      <div class="accordion-body">
+      <div class="form-group mb-3">
+        <label for="exampleFormControlTextarea1">Status</label>
         <select class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
         </select>
-        </div>
-        
-        <div class="mb-3">
+      </div>
+
+      <div class="form-group mb-3">
         <div class="date-picker">
           <label for="">Date</label>
-            <form action="/action_page.php">
-              <input type="date" id="birthday" name="birthday">
-            </form>
+          <form action="/action_page.php">
+            <input type="date" id="birthday" name="birthday">
+          </form>
+        </div>
+      </div>
+      <div class="form-group mb-3">
+        <label for="">User Type</label>
+        <div class="d-flex radio-custom mt-3">
+          <div class="form-check me-3 ">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              General
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Customer
+            </label>
           </div>
         </div>
-        <div class="mb-3">
-          <label for="">User Type</label>
-          <div class="d-flex radio-custom mt-3">
-      <div class="form-check me-3 ">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-        <label class="form-check-label" for="flexRadioDefault1">
-            General
-        </label>
-        </div>
-        <div class="form-check">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-        <label class="form-check-label" for="flexRadioDefault2">
-            Customer
-        </label>
-        </div>
-        </div>
-        </div>
-        <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Country</label>
+      </div>
+      <div class="form-group mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Country</label>
         <select class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
         </select>
-        </div>
-        <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">State/Provice</label>
+      </div>
+      <div class="form-group mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">State/Provice</label>
         <select class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
         </select>
-        </div>
-
+      </div>
+    </div>
+    </div>
+    <div class="offcanvas-footer fil-pd">
+      <button type="button" class="btn btn-secondary sec-custom">Clear</button>
+      <button type="button" class="btn btn-primary ms-2 ">Filter</button>
+    </div>
   </div>
-  <div class="offcanvas-footer fil-pd">
-  <button type="button" class="btn btn-secondary sec-custom">Clear</button>
-  <button type="button" class="btn btn-primary ms-2 ">Filter</button>
-  </div>
-</div>
 </div>
 <?php include('common/footer.php'); ?>

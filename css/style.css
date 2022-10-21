@@ -549,6 +549,7 @@ ul.dropdown-menu.show li:last-child {
     height: 36px;   
     padding: 0 10px;
     margin-right: 10px;
+    outline: none;
 }
 
 .db-top-wrapper .right {
@@ -1509,5 +1510,14 @@ input {
 }
 .custom-form .form input {
   background: #ececec;
+}
+button.btn.btn-secondary.dropdown-toggle.fl-dd:hover {
+  color: #B8B8B8 !important;
+}
+.remove-bckg{
+  background:none !important;
+}
+label.form-check-label {
+  font-weight: 500 !important;
 }
 /* outer pages CSS ends here ///////////////////////////////////////////////////////////////////////////////////////*/
