@@ -42,8 +42,8 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><img src="img/prof-1.png" alt=""></a>
                 <ul class="dropdown-menu last">
                   <li><a class="dropdown-item" href="#"><i class="bi bi-person-circle"></i> My Profile</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="bi bi-card-text"></i>Notes</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="bi bi-journal-arrow-up"></i>Feeds</a></li>
+                  <!-- <li><a class="dropdown-item" href="#"><i class="bi bi-card-text"></i>Notes</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-journal-arrow-up"></i>Feeds</a></li> -->
                   <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right"></i>Logout</a></li>
                 </ul>
               </li>
