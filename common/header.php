@@ -41,7 +41,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><img src="img/prof-1.png" alt=""></a>
                 <ul class="dropdown-menu last">
-                  <li><a class="dropdown-item" href="#"><i class="bi bi-person-circle"></i> My Profile</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="offcanvas" data-bs-target="#myprofile" aria-controls="offcanvasRight"><i class="bi bi-person-circle"></i> My Profile</a></li>
                   <li><a class="dropdown-item" href="#"><i class="bi bi-card-text"></i>Notes</a></li>
                   <li><a class="dropdown-item" href="#"><i class="bi bi-journal-arrow-up"></i>Feeds</a></li>
                   <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right"></i>Logout</a></li>
@@ -55,3 +55,96 @@
     </div>
   </div>
 </nav>
+<!-- Add User offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="myprofile" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">My Profile</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+
+
+    <div class="accordion" id="accordionExample">
+
+      <div class="accordion-item">
+
+
+        <div class="accordion-body">
+          <div class="d-flex">
+            <div class="profile-upload">
+              <img src="img/prof-big.png" alt="">
+              <div class="prof-ess">
+                <div class="settings">
+                  <div>
+                    <i class="bi bi-trash3 mr1"></i>
+                    <i class="bi bi-camera-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ms-3">
+              <h5>User Image</h5>
+              <p class="text-muted">Max Image Size 10MB with Jpg, png</p>
+              <!-- <h5>Status</h5>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+              </div> -->
+            </div>
+          </div>
+          <div class="form-flex fo-flx-js-sb">
+            <div class="form-group">
+              <label for="">First Name</label>
+              <input type="text" class="shadow-cs" readonly placeholder="Stuart">
+            </div>
+            <div class="form-group">
+              <label for="">Last Name</label>
+              <input type="text" class="shadow-cs" readonly placeholder="Binny">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Designation</label>
+            <input type="text" readonly placeholder="Manager">
+          </div>
+          <div class="form-group">
+            <label for="">Email</label>
+            <input type="text" readonly placeholder="sample@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="">Mobile</label>
+            <input type="text" readonly placeholder="96463 65365">
+          </div>
+          <div class="form-group mb-4">
+            <label for="">Created Date</label>
+            <input type="text" readonly placeholder="2nd sep,2022">
+          </div>
+
+          <div class="divider remove-padding mt-3 mb-3"></div>
+          <div class="password-wrp">
+            <h5 class="mb-3 mt-2">Change Password</h5>
+            <div class="form-group">
+              <label for="">Enter the Current Password</label>
+              <input type="text">
+            </div>
+            <div class="form-group">
+              <label for="">New Password</label>
+              <input type="password">
+            </div>
+            <div class="form-group">
+              <label for="">Confirm New Password</label>
+              <input type="password">
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="offcanvas-footer fil-pd">
+    <button type="button" class="btn btn-secondary sec-custom">Cancel</button>
+    <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#ecomfilter" aria-controls="offcanvasRight">Save</button>
+  </div>
+</div>
