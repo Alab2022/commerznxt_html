@@ -365,7 +365,6 @@ a.btn.btn-primary:hover {
   font-size: 14px !important;
   color: #ABABAB !important;
 }
-
 .form-wrapper.text-center h5 {
   font-size: 22px !important;
   margin-top: 40px;
@@ -1520,4 +1519,81 @@ button.btn.btn-secondary.dropdown-toggle.fl-dd:hover {
 label.form-check-label {
   font-weight: 500 !important;
 }
+.form-control-lg {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  height: 50px;
+}
 /* outer pages CSS ends here ///////////////////////////////////////////////////////////////////////////////////////*/
+div#newlead .card-heading .right {
+  width: auto !important;
+}
+.md-padding{
+  padding: 20px 30px !important;
+}
+.form-check .form-check-input{
+  margin-left: unset;
+}
+.modal-footer {
+  padding: 15px 30px !important;
+}
+ h4 span {
+  background: #eff2f6;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7481A7;
+  margin-left: 5px;
+}
+.checker{
+  width: 48%;
+}
+.checker .card {
+  padding: 15px;
+  margin-bottom: 0;
+}
+.con-ckbx{
+  justify-content: space-between;
+}
+.checker i {
+  font-size: 20px;
+}
+.checker h5 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.checker svg {
+  font-size: 20px;
+}
+.checker .card .form-check {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.checker .card .form-check input[type="checkbox"] + label:before {
+  width: 18px;
+  height: 18px;
+  margin-right: 0 !important;
+  top: 0;
+  left: 10px;
+}
+.checker .card .form-check input[type="checkbox"]:checked + label:after {
+  font-size: 14px;
+  width: 18px;
+  height: 18px;
+  margin-right: 0 !important;
+  top: 0;
+  left: 10px;
+}
+.checker.selected .card {
+  background: #63719C;
+} 
+.selected i {
+  color: #fff;
+}
+.selected h5 {
+  color: #fff !important;
+}
